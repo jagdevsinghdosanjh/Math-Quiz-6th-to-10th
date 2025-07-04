@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Portal - For 9th Mathematics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz Portal For 9th Mathematics</h1>
+
+        <label for="studentName"><strong>Student Name:</strong></label>
+        <input type="text" id="studentName" placeholder="Enter your name" /><br><br>
+
+        <label for="versionSelect"><strong>Select Version:</strong></label>
+        <select id="versionSelect">
+            <option value="1">Chapter 1 - Patterns in Mathematics</option>
+            <option value="2">Chapter 2 - Lines and Angles</option>
+            <option value="3">Chapter 3 - Number Play</option>
+            <option value="4">Chapter 4 - Data Handling and Presentation</option>
+            <option value="5">Chapter 5 - Prime Time</option>
+            <option value="6">Chapter 6 - Perimeter and Area</option>
+            <option value="7">Chapter 7 - Fractions</option>
+            <option value="8">Chapter 8 - Playing with Constructions</option>
+            <option value="9">Chapter 9 - Symmetry</option>
+            <option value="10">Chapter 10 - The Other Side of Zero</option>
+            <option value="11">Chapter 1 to 5 - Combined</option>
+            <option value="12">Chapter 6th to 10th - Combined</option>
+            <option value="13">Chapter 1st to 10th - Combined</option>
+        </select>
+        <button onclick="loadQuiz()">Load Quiz</button>
+    <div id="quiz"></div>
+        <button onclick="submitQuiz()">Submit Answers</button>
+        <button id="downloadBtn" disabled>Download PDF</button>
+        <button onclick="retakeQuiz()">Retake Quiz</button>
+        <div id="result"></div>
+        <div id="explanation"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
