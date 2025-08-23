@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,9 +12,12 @@
       background-color: #f9f9f9;
       color: #333;
     }
-    h1, h2 {
+
+    h1,
+    h2 {
       color: #2c3e50;
     }
+
     .question {
       cursor: pointer;
       margin: 0.5rem 0;
@@ -22,9 +26,11 @@
       border-radius: 5px;
       transition: background-color 0.3s;
     }
+
     .question:hover {
       background-color: #d0e0f0;
     }
+
     .answer {
       display: none;
       margin: 0.3rem 1rem;
@@ -32,15 +38,18 @@
       background-color: #fff;
       border-left: 3px solid #0077cc;
     }
+
     a {
       color: #0077cc;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
   </style>
 </head>
+
 <body>
 
   <h1>Class 9 Mathematics – Interactive Questions</h1>
@@ -48,14 +57,16 @@
 
   <!-- Chapter 1 -->
   <h2>Chapter 1: Number System</h2>
-  <div class="question" onclick="toggleAnswer('q1')">Write the decimal expansion of 1/7. Is it terminating or non-terminating?</div>
+  <div class="question" onclick="toggleAnswer('q1')">Write the decimal expansion of 1/7. Is it terminating or
+    non-terminating?</div>
   <div class="answer" id="q1">1/7 = 0.142857... (repeating). It is non-terminating and recurring, hence rational.</div>
 
   <div class="question" onclick="toggleAnswer('q2')">Represent √5 on the number line geometrically.</div>
-  <div class="answer" id="q2">Construct a right triangle with legs 2 and 1 units. Hypotenuse = √5. Use compass to mark it on the number line.</div>
+  <div class="answer" id="q2">Construct a right triangle with legs 2 and 1 units. Hypotenuse = √5. Use compass to mark
+    it on the number line.</div>
 
   <div class="question" onclick="toggleAnswer('q3')">Rationalize the denominator of 1/(√7 + √6).</div>
-  <div class="answer" id="q3">Multiply by conjugate:  
+  <div class="answer" id="q3">Multiply by conjugate:
     \( \frac{1}{\sqrt{7} + \sqrt{6}} \times \frac{\sqrt{7} - \sqrt{6}}{\sqrt{7} - \sqrt{6}} = \sqrt{7} - \sqrt{6} \)
   </div>
 
@@ -66,7 +77,8 @@
   <div class="answer" id="q5">Let x = 0.333... ⇒ 10x = 3.333... ⇒ 9x = 3 ⇒ x = 1/3</div>
 
   <div class="question" onclick="toggleAnswer('q6')">Is π a rational or irrational number? Justify your answer.</div>
-  <div class="answer" id="q6">π is irrational. Its decimal expansion is non-terminating and non-repeating: 3.14159...</div>
+  <div class="answer" id="q6">π is irrational. Its decimal expansion is non-terminating and non-repeating: 3.14159...
+  </div>
 
   <!-- Chapter 2 -->
   <h2>Chapter 2: Polynomials</h2>
@@ -85,6 +97,19 @@
   <div class="question" onclick="toggleAnswer('q11')">Divide x³ + 3x² + 3x + 1 by x + 1.</div>
   <div class="answer" id="q11">Using long division or identity: (x + 1)³ = x³ + 3x² + 3x + 1</div>
 
+  <h2>Chapter 3: Linear Equations in Two Variables</h2>
+  <div class="question" onclick="toggleAnswer('q12')">Write the standard form of a linear equation in two variables.
+  </div>
+  <div class="answer" id="q12">Ax + By + C = 0, where A, B, and C are real numbers and A, B ≠ 0.</div>
+  <div class="question" onclick="toggleAnswer('q13')">Find two solutions of the equation 2x + 3y = 6.</div>
+  <div class="answer" id="q13">x = 0 ⇒ y = 2; x = 3 ⇒ y = 0</div>
+  <div class="question" onclick="toggleAnswer('q14')">Draw the graph of the equation x + y = 4.</div>
+  <div class="answer" id="q14">Plot points like (0,4), (2,2), (4,0) and draw a straight line through them.</div>
+  <div class="question" onclick="toggleAnswer('q15')">If x = 1, find the value of y in the equation 3x + 2y = 7.</div>
+  <div class="answer" id="q15">3(1) + 2y = 7 ⇒ 2y = 4 ⇒ y = 2</div>
+  <div class="question" onclick="toggleAnswer('q16')">Write a linear equation whose graph passes through the points (0,
+    2) and (2, 0).</div>
+  <div class="answer" id="q16">Slope = (0 - 2)/(2 - 0) = -1 ⇒ Equation: x + y = 2</div>
   <!-- Chapters 3 to 10 follow same structure -->
   <!-- For brevity, I’ll continue generating the rest if you confirm you want all chapters rendered this way -->
 
@@ -96,4 +121,5 @@
   </script>
 
 </body>
+
 </html>
