@@ -317,5 +317,42 @@
       ],
       "correct": 2,
       "explanation": "One angle is 90°, so it is a right-angled triangle."
-    }
+    },
+
+  {
+    "question": "Which of the following is true for the sum of exterior angles of a triangle?",
+    "options": ["It is always 180°", "It is always 360°", "It depends on the triangle", "It is equal to the sum of interior angles"],
+    "correct": 1,
+    "explanation": "The sum of the exterior angles of any polygon, including a triangle, is always 360°."
+  },
+  {
+    "question": "Which of the following is a correct statement about the centroid of a triangle?",
+    "options": ["It lies on the longest side", "It is the point where medians intersect", "It is the point where altitudes intersect", "It lies outside the triangle"],
+    "correct": 1,
+    "explanation": "The centroid is the point of intersection of the medians of a triangle and always lies inside the triangle."
+  },
+  {
+    "question": "Which of the following is a correct property of an acute triangle?",
+    "options": ["It has one angle greater than 90°", "It has one angle equal to 90°", "All angles are less than 90°", "It has two equal sides"],
+    "correct": 2,
+    "explanation": "An acute triangle has all three angles less than 90°."
+  },
+  {
+    "question": "Which of the following is true about the orthocenter of a triangle?",
+    "options": ["It is the point where medians meet", "It is the point where altitudes meet", "It is the point where angle bisectors meet", "It is the point where perpendicular bisectors meet"],
+    "correct": 1,
+    "explanation": "The orthocenter is the point of intersection of the altitudes of a triangle."
+  },
+  {
+    "question": "Which of the following is a correct statement about the incenter of a triangle?",
+    "options": ["It lies on the longest side", "It is the point where medians intersect", "It is the center of the incircle", "It lies outside the triangle"],
+    "correct": 2,
+    "explanation": "The incenter is the point of intersection of angle bisectors and is the center of the incircle."
+  },
+  {
+    "question": "Which of the following is a correct statement about the circumcenter?",
+    "options": ["It is the point where altitudes meet", "It is the center of the incircle", "It is the point where perpendicular bisectors meet", "It lies on the base of the triangle"],
+    "correct": 2,
+    "explanation": "The circumcenter is the point of intersection of the perpendicular bisectors and is the center of the circumcircle."
+  }
   ]
