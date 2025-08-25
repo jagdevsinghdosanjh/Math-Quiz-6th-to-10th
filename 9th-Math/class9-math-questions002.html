@@ -56,76 +56,26 @@
   <p><a href="https://math-quiz-6th-to-10th.vercel.app/">← Back to Main Quiz App</a></p>
 
  <h2>Chapter 1: Number System</h2>
+  <div class="question" onclick="toggleAnswer('q1')">Write the decimal expansion of 1/7. Is it terminating or non-terminating?</div>
+  <div class="answer" id="q1">1/7 = 0.142857... (repeating). It is non-terminating and recurring, hence rational.</div>
 
-<div class="question" onclick="toggleAnswer('q1')">
-  Write the decimal expansion of 1/7. Is it terminating or non-terminating?
-</div>
-<div class="answer" id="q1">
-  <strong>Step-by-step explanation:</strong><br>
-  - Divide 1 by 7: <code>1 ÷ 7 = 0.142857142857...</code><br>
-  - The digits <code>142857</code> repeat infinitely.<br>
-  - This is a <em>non-terminating recurring decimal</em>.<br><br>
-  <strong>Conclusion:</strong><br>
-  Since the decimal repeats, 1/7 is a <em>rational number</em>.<br>
-  <strong>Fun Fact:</strong> The repeating block <code>142857</code> has cyclic properties. Try multiplying it by 2, 3, ..., 6!
-</div>
+  <div class="question" onclick="toggleAnswer('q2')">Represent √5 on the number line geometrically.</div>
+  <div class="answer" id="q2">Construct a right triangle with legs 2 and 1 units. Hypotenuse = √5. Use compass to mark it on the number line.</div>
 
-<div class="question" onclick="toggleAnswer('q2')">
-  Represent √5 on the number line geometrically.
-</div>
-<div class="answer" id="q2">
-  <strong>Construction Steps:</strong><br>
-  1. Draw a number line and mark point O (0) and A (2 units).<br>
-  2. At point A, draw a perpendicular and mark point B such that AB = 1 unit.<br>
-  3. Connect OB. By Pythagoras theorem:<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<code>OB² = OA² + AB² = 2² + 1² = 4 + 1 = 5</code><br>
-  &nbsp;&nbsp;&nbsp;&nbsp;<code>⇒ OB = √5</code><br>
-  4. Use a compass to draw an arc with radius OB and center O.<br>
-  5. The arc intersects the number line at point P, which represents √5.<br><br>
-  <strong>Visual Insight:</strong> This method uses a right triangle to geometrically construct irrational lengths.
-</div>
+  <div class="question" onclick="toggleAnswer('q3')">Rationalize the denominator of 1/(√7 + √6).</div>
+  <div class="answer" id="q3">
+    Multiply numerator and denominator by the conjugate:<br>
+    <code>(1 / (√7 + √6)) × ((√7 - √6) / (√7 - √6)) = (√7 - √6) / (7 - 6) = √7 - √6</code>
+  </div>
 
-<div class="question" onclick="toggleAnswer('q3')">
-  Rationalize the denominator of 1/(√7 + √6).
-</div>
-<div class="answer" id="q3">
-  <strong>Step-by-step:</strong><br>
-  Multiply numerator and denominator by the conjugate:<br>
-  <code>(1 / (√7 + √6)) × ((√7 - √6) / (√7 - √6))</code><br>
-  = <code>(√7 - √6) / ((√7)² - (√6)²)</code><br>
-  = <code>(√7 - √6) / (7 - 6) = √7 - √6</code><br><br>
-  <strong>Why this works:</strong> Multiplying by the conjugate removes the surds from the denominator.
-</div>
+  <div class="question" onclick="toggleAnswer('q4')">Find two rational numbers between √2 and √3.</div>
+  <div class="answer" id="q4">√2 ≈ 1.41, √3 ≈ 1.73. Rational numbers between them: 1.5 and 1.6.</div>
 
-<div class="question" onclick="toggleAnswer('q4')">
-  Find two rational numbers between √2 and √3.
-</div>
-<div class="answer" id="q4">
-  √2 ≈ 1.414, √3 ≈ 1.732<br>
-  Rational numbers between them: <code>1.5</code> and <code>1.6</code><br><br>
-  <strong>Note:</strong> Rational numbers have terminating or repeating decimals, unlike irrational numbers.
-</div>
+  <div class="question" onclick="toggleAnswer('q5')">Express 0.333... as a rational number.</div>
+  <div class="answer" id="q5">Let x = 0.333... ⇒ 10x = 3.333... ⇒ 9x = 3 ⇒ x = 1/3</div>
 
-<div class="question" onclick="toggleAnswer('q5')">
-  Express 0.333... as a rational number.
-</div>
-<div class="answer" id="q5">
-  Let <code>x = 0.333...</code><br>
-  Multiply both sides by 10: <code>10x = 3.333...</code><br>
-  Subtract: <code>10x - x = 3.333... - 0.333...</code><br>
-  ⇒ <code>9x = 3</code> ⇒ <code>x = 1/3</code><br><br>
-  <strong>Conclusion:</strong> Every recurring decimal is a rational number.
-</div>
-
-<div class="question" onclick="toggleAnswer('q6')">
-  Is π a rational or irrational number? Justify your answer.
-</div>
-<div class="answer" id="q6">
-  π = 3.1415926535...<br>
-  - The decimal expansion is <em>non-terminating</em> and <em>non-repeating</em>.<br>
-  - It cannot be expressed as a ratio of two integers.<br><br>
-  <strong>Conclusion:</strong> π is an <em>irrational number</em>.
-</div>
+  <div class="question" onclick="toggleAnswer('q6')">Is π a rational or irrational number? Justify your answer.</div>
+  <div class="answer" id="q6">π is irrational. Its decimal expansion is non-terminating and non-repeating: 3.14159...</div>
 
   <!-- Chapter 2 -->
   <h2>Chapter 2: Polynomials</h2>
