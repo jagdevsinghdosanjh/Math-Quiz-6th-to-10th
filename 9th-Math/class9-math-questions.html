@@ -187,81 +187,265 @@
 
 
   <h2>Chapter 3: Linear Equations in Two Variables</h2>
-  <div class="question" onclick="toggleAnswer('q12')">Write the standard form of a linear equation in two variables.
-  </div>
-  <div class="answer" id="q12">Ax + By + C = 0, where A, B, and C are real numbers and A, B ≠ 0.</div>
-  <div class="question" onclick="toggleAnswer('q13')">Find two solutions of the equation 2x + 3y = 6.</div>
-  <div class="answer" id="q13">x = 0 ⇒ y = 2; x = 3 ⇒ y = 0</div>
-  <div class="question" onclick="toggleAnswer('q14')">Draw the graph of the equation x + y = 4.</div>
-  <div class="answer" id="q14">Plot points like (0,4), (2,2), (4,0) and draw a straight line through them.</div>
-  <div class="question" onclick="toggleAnswer('q15')">If x = 1, find the value of y in the equation 3x + 2y = 7.</div>
-  <div class="answer" id="q15">3(1) + 2y = 7 ⇒ 2y = 4 ⇒ y = 2</div>
-  <div class="question" onclick="toggleAnswer('q16')">Write a linear equation whose graph passes through the points (0,
-    2) and (2, 0).</div>
-  <div class="answer" id="q16">Slope = (0 - 2)/(2 - 0) = -1 ⇒ Equation: x + y = 2</div>
+
+<div class="question" onclick="toggleAnswer('q12')">
+  Write the standard form of a linear equation in two variables.
+</div>
+<div class="answer" id="q12">
+  <strong>Standard Form:</strong><br>
+  <code>Ax + By + C = 0</code><br>
+  - A, B, and C are real numbers<br>
+  - A and B ≠ 0 (to ensure both variables are present)<br><br>
+  <strong>Example:</strong> 2x + 3y - 6 = 0
+</div>
+
+<div class="question" onclick="toggleAnswer('q13')">
+  Find two solutions of the equation 2x + 3y = 6.
+</div>
+<div class="answer" id="q13">
+  <strong>Solution 1:</strong> Let x = 0 ⇒ 2(0) + 3y = 6 ⇒ y = 2<br>
+  <strong>Solution 2:</strong> Let x = 3 ⇒ 2(3) + 3y = 6 ⇒ y = 0<br><br>
+  <strong>Solutions:</strong> (0, 2) and (3, 0)
+</div>
+
+<div class="question" onclick="toggleAnswer('q14')">
+  Draw the graph of the equation x + y = 4.
+</div>
+<div class="answer" id="q14">
+  <strong>Choose values:</strong><br>
+  - x = 0 ⇒ y = 4<br>
+  - x = 2 ⇒ y = 2<br>
+  - x = 4 ⇒ y = 0<br><br>
+  <strong>Plot:</strong> Points (0,4), (2,2), (4,0)<br>
+  <strong>Graph:</strong> Draw a straight line through these points.
+</div>
+
+<div class="question" onclick="toggleAnswer('q15')">
+  If x = 1, find the value of y in the equation 3x + 2y = 7.
+</div>
+<div class="answer" id="q15">
+  Substitute x = 1:<br>
+  3(1) + 2y = 7 ⇒ 3 + 2y = 7 ⇒ 2y = 4 ⇒ y = 2<br><br>
+  <strong>Answer:</strong> y = 2
+</div>
+
+<div class="question" onclick="toggleAnswer('q16')">
+  Write a linear equation whose graph passes through the points (0, 2) and (2, 0).
+</div>
+<div class="answer" id="q16">
+  <strong>Find slope:</strong><br>
+  m = (0 - 2)/(2 - 0) = -1<br>
+  Use point-slope form: y - y₁ = m(x - x₁)<br>
+  ⇒ y - 2 = -1(x - 0) ⇒ y = -x + 2<br>
+  <strong>Standard form:</strong> x + y = 2
+</div>
+
 
   <!-- Chapter 4: Linear Inequalities -->
 <h2>Chapter 4: Linear Inequalities</h2>
-<div class="question" onclick="toggleAnswer('q17')">Solve: 3x - 5 < 7</div>
-<div class="answer" id="q17">3x < 12 ⇒ x < 4</div>
-<div class="question" onclick="toggleAnswer('q18')">Graph the inequality x ≥ 2 on the number line.</div>
-<div class="answer" id="q18">Draw a solid dot at x = 2 and shade to the right.</div>
-<div class="question" onclick="toggleAnswer('q19')">Is x = -1 a solution of the inequality 2x + 3 > 0?</div>
-<div class="answer" id="q19">2(-1) + 3 = 1 > 0 ⇒ Yes, it is a solution.</div>
+
+<div class="question" onclick="toggleAnswer('q17')">
+  Solve: 3x - 5 &lt; 7
+</div>
+<div class="answer" id="q17">
+  Add 5 to both sides: 3x &lt; 12<br>
+  Divide by 3: x &lt; 4<br><br>
+  <strong>Solution:</strong> x is any number less than 4
+</div>
+
+<div class="question" onclick="toggleAnswer('q18')">
+  Graph the inequality x ≥ 2 on the number line.
+</div>
+<div class="answer" id="q18">
+  - Draw a solid dot at x = 2 (since it's included)<br>
+  - Shade the number line to the right of 2<br><br>
+  <strong>Visual cue:</strong> Solid dot = inclusive; arrow = direction of inequality
+</div>
+
+<div class="question" onclick="toggleAnswer('q19')">
+  Is x = -1 a solution of the inequality 2x + 3 &gt; 0?
+</div>
+<div class="answer" id="q19">
+  Substitute x = -1:<br>
+  2(-1) + 3 = -2 + 3 = 1<br>
+  Since 1 &gt; 0, <strong>x = -1 is a solution</strong>
+</div>
 
 <!-- Chapter 5: Lines and Angles -->
 <h2>Chapter 5: Lines and Angles</h2>
-<div class="question" onclick="toggleAnswer('q20')">State the vertically opposite angles theorem.</div>
-<div class="answer" id="q20">When two lines intersect, the opposite angles are equal.</div>
-<div class="question" onclick="toggleAnswer('q21')">If two angles are supplementary and one is 65°, find the other.</div>
-<div class="answer" id="q21">180° - 65° = 115°</div>
-<div class="question" onclick="toggleAnswer('q22')">Define a linear pair of angles.</div>
-<div class="answer" id="q22">Two adjacent angles whose non-common arms form a straight line (sum = 180°).</div>
+
+<div class="question" onclick="toggleAnswer('q20')">
+  State the vertically opposite angles theorem.
+</div>
+<div class="answer" id="q20">
+  When two lines intersect, the angles opposite each other are equal.<br>
+  <strong>Example:</strong> If ∠A and ∠B are opposite, then ∠A = ∠B
+</div>
+
+<div class="question" onclick="toggleAnswer('q21')">
+  If two angles are supplementary and one is 65°, find the other.
+</div>
+<div class="answer" id="q21">
+  Supplementary angles sum to 180°:<br>
+  180° - 65° = <strong>115°</strong>
+</div>
+
+<div class="question" onclick="toggleAnswer('q22')">
+  Define a linear pair of angles.
+</div>
+<div class="answer" id="q22">
+  Two adjacent angles whose non-common arms form a straight line.<br>
+  <strong>Sum:</strong> 180°
+</div>
 
 <!-- Chapter 6: Triangles -->
 <h2>Chapter 6: Triangles</h2>
-<div class="question" onclick="toggleAnswer('q23')">State the Pythagoras theorem.</div>
-<div class="answer" id="q23">In a right triangle: (Hypotenuse)² = (Base)² + (Height)²</div>
-<div class="question" onclick="toggleAnswer('q24')">Prove that angles opposite equal sides of a triangle are equal.</div>
-<div class="answer" id="q24">Use congruence: If AB = AC, then triangle ABC is isosceles ⇒ ∠B = ∠C</div>
-<div class="question" onclick="toggleAnswer('q25')">What is the sum of interior angles of a triangle?</div>
-<div class="answer" id="q25">180°</div>
+
+<div class="question" onclick="toggleAnswer('q23')">
+  State the Pythagoras theorem.
+</div>
+<div class="answer" id="q23">
+  In a right triangle:<br>
+  <code>(Hypotenuse)² = (Base)² + (Height)²</code><br>
+  <strong>Example:</strong> If base = 3, height = 4 ⇒ hypotenuse = 5
+</div>
+
+<div class="question" onclick="toggleAnswer('q24')">
+  Prove that angles opposite equal sides of a triangle are equal.
+</div>
+<div class="answer" id="q24">
+  If AB = AC, triangle ABC is isosceles.<br>
+  By congruence (SAS or SSS), ∠B = ∠C<br>
+  <strong>Conclusion:</strong> Angles opposite equal sides are equal
+</div>
+
+<div class="question" onclick="toggleAnswer('q25')">
+  What is the sum of interior angles of a triangle?
+</div>
+<div class="answer" id="q25">
+  <strong>Always:</strong> 180°
+</div>
 
 <!-- Chapter 7: Quadrilaterals -->
 <h2>Chapter 7: Quadrilaterals</h2>
-<div class="question" onclick="toggleAnswer('q26')">Define a parallelogram.</div>
-<div class="answer" id="q26">A quadrilateral with opposite sides parallel and equal.</div>
-<div class="question" onclick="toggleAnswer('q27')">State the angle sum property of a quadrilateral.</div>
-<div class="answer" id="q27">Sum of interior angles = 360°</div>
-<div class="question" onclick="toggleAnswer('q28')">If one angle of a parallelogram is 70°, find its adjacent angle.</div>
-<div class="answer" id="q28">Adjacent angles are supplementary ⇒ 180° - 70° = 110°</div>
+
+<div class="question" onclick="toggleAnswer('q26')">
+  Define a parallelogram.
+</div>
+<div class="answer" id="q26">
+  A quadrilateral with both pairs of opposite sides parallel and equal.<br>
+  <strong>Examples:</strong> Rectangle, Rhombus
+</div>
+
+<div class="question" onclick="toggleAnswer('q27')">
+  State the angle sum property of a quadrilateral.
+</div>
+<div class="answer" id="q27">
+  Sum of interior angles = <strong>360°</strong>
+</div>
+
+<div class="question" onclick="toggleAnswer('q28')">
+  If one angle of a parallelogram is 70°, find its adjacent angle.
+</div>
+<div class="answer" id="q28">
+  Adjacent angles in a parallelogram are supplementary:<br>
+  180° - 70° = <strong>110°</strong>
+</div>
+
 
 <!-- Chapter 8: Circles -->
 <h2>Chapter 8: Circles</h2>
-<div class="question" onclick="toggleAnswer('q29')">Define a chord of a circle.</div>
-<div class="answer" id="q29">A line segment joining two points on the circle.</div>
-<div class="question" onclick="toggleAnswer('q30')">State the angle subtended by a diameter at the circle.</div>
-<div class="answer" id="q30">It subtends a right angle (90°) at the circumference.</div>
-<div class="question" onclick="toggleAnswer('q31')">What is the relation between radius and diameter?</div>
-<div class="answer" id="q31">Diameter = 2 × Radius</div>
+
+<div class="question" onclick="toggleAnswer('q29')">
+  Define a chord of a circle.
+</div>
+<div class="answer" id="q29">
+  A <strong>chord</strong> is a line segment that joins any two points on the circumference of a circle.<br><br>
+  <strong>Note:</strong> The longest chord in a circle is the <em>diameter</em>, which passes through the center.
+</div>
+
+<div class="question" onclick="toggleAnswer('q30')">
+  State the angle subtended by a diameter at the circle.
+</div>
+<div class="answer" id="q30">
+  A diameter subtends a <strong>right angle (90°)</strong> at the circumference of the circle.<br><br>
+  <strong>Why?</strong> This is a special case of the angle in a semicircle theorem.<br>
+  If A and B are endpoints of the diameter and C is any point on the circle forming triangle ABC, then ∠ACB = 90°.
+</div>
+
+<div class="question" onclick="toggleAnswer('q31')">
+  What is the relation between radius and diameter?
+</div>
+<div class="answer" id="q31">
+  The <strong>diameter</strong> is twice the <strong>radius</strong>:<br>
+  <code>Diameter = 2 × Radius</code><br><br>
+  <strong>Example:</strong> If radius = 5 cm, then diameter = 10 cm.
+</div>
+
 
 <!-- Chapter 9: Statistics -->
 <h2>Chapter 9: Statistics</h2>
-<div class="question" onclick="toggleAnswer('q32')">Define mean of a data set.</div>
-<div class="answer" id="q32">Mean = (Sum of observations) ÷ (Number of observations)</div>
-<div class="question" onclick="toggleAnswer('q33')">Find the mode of: 2, 3, 4, 4, 5, 4, 6</div>
-<div class="answer" id="q33">Mode = 4 (occurs most frequently)</div>
-<div class="question" onclick="toggleAnswer('q34')">What is the median of: 5, 7, 9, 11, 13?</div>
-<div class="answer" id="q34">Median = 9 (middle value)</div>
+
+<div class="question" onclick="toggleAnswer('q32')">
+  Define mean of a data set.
+</div>
+<div class="answer" id="q32">
+  The <strong>mean</strong> is the average value of a data set.<br>
+  <code>Mean = (Sum of all observations) ÷ (Number of observations)</code><br><br>
+  <strong>Example:</strong> For data 2, 4, 6 ⇒ Mean = (2 + 4 + 6)/3 = 12/3 = 4
+</div>
+
+<div class="question" onclick="toggleAnswer('q33')">
+  Find the mode of: 2, 3, 4, 4, 5, 4, 6
+</div>
+<div class="answer" id="q33">
+  The <strong>mode</strong> is the value that occurs most frequently.<br>
+  In the given data: 4 appears <strong>three times</strong>.<br><br>
+  <strong>Answer:</strong> Mode = <code>4</code>
+</div>
+
+<div class="question" onclick="toggleAnswer('q34')">
+  What is the median of: 5, 7, 9, 11, 13?
+</div>
+<div class="answer" id="q34">
+  The <strong>median</strong> is the middle value when data is arranged in order.<br>
+  Ordered data: 5, 7, 9, 11, 13<br>
+  Middle value = <strong>9</strong><br><br>
+  <strong>Answer:</strong> Median = <code>9</code>
+</div>
 
 <!-- Chapter 10: Probability -->
 <h2>Chapter 10: Probability</h2>
-<div class="question" onclick="toggleAnswer('q35')">Define probability.</div>
-<div class="answer" id="q35">Probability = (Favorable outcomes) ÷ (Total outcomes)</div>
-<div class="question" onclick="toggleAnswer('q36')">What is the probability of getting a head when tossing a coin?</div>
-<div class="answer" id="q36">1/2</div>
-<div class="question" onclick="toggleAnswer('q37')">Find the probability of getting an even number when rolling a die.</div>
-<div class="answer" id="q37">Even numbers: 2, 4, 6 ⇒ Probability = 3/6 = 1/2</div>
+
+<div class="question" onclick="toggleAnswer('q35')">
+  Define probability.
+</div>
+<div class="answer" id="q35">
+  <strong>Probability</strong> measures the likelihood of an event occurring.<br>
+  <code>Probability = (Number of favorable outcomes) ÷ (Total number of outcomes)</code><br><br>
+  <strong>Note:</strong> Probability values range from 0 to 1.
+</div>
+
+<div class="question" onclick="toggleAnswer('q36')">
+  What is the probability of getting a head when tossing a coin?
+</div>
+<div class="answer" id="q36">
+  A coin has two outcomes: Head and Tail.<br>
+  Favorable outcome = Head<br>
+  Total outcomes = 2<br><br>
+  <strong>Probability:</strong> <code>1/2</code>
+</div>
+
+<div class="question" onclick="toggleAnswer('q37')">
+  Find the probability of getting an even number when rolling a die.
+</div>
+<div class="answer" id="q37">
+  A die has 6 faces: 1, 2, 3, 4, 5, 6<br>
+  Even numbers = 2, 4, 6 ⇒ 3 favorable outcomes<br>
+  Total outcomes = 6<br><br>
+  <strong>Probability:</strong> <code>3/6 = 1/2</code>
+</div>
+
   <script>
     function toggleAnswer(id) {
       const el = document.getElementById(id);
