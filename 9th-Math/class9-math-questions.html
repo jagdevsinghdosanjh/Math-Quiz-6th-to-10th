@@ -128,21 +128,63 @@
 </div>
 
   <!-- Chapter 2 -->
-  <h2>Chapter 2: Polynomials</h2>
-  <div class="question" onclick="toggleAnswer('q7')">Find the degree of the polynomial 5x³ - 2x² + x - 7.</div>
-  <div class="answer" id="q7">The degree is 3 (highest power of x).</div>
+ <h2>Chapter 2: Polynomials</h2>
 
-  <div class="question" onclick="toggleAnswer('q8')">If p(x) = x² - 3x + 2, find p(1), p(2), and p(0).</div>
-  <div class="answer" id="q8">p(1) = 0, p(2) = 0, p(0) = 2</div>
+<div class="question" onclick="toggleAnswer('q7')">
+  Find the degree of the polynomial 5x³ - 2x² + x - 7.
+</div>
+<div class="answer" id="q7">
+  <strong>Explanation:</strong><br>
+  - A polynomial’s degree is the highest power of the variable.<br>
+  - In <code>5x³ - 2x² + x - 7</code>, the highest exponent of x is 3.<br><br>
+  <strong>Conclusion:</strong> Degree = <code>3</code>
+</div>
 
-  <div class="question" onclick="toggleAnswer('q9')">Factorize x² - 5x + 6.</div>
-  <div class="answer" id="q9">x² - 5x + 6 = (x - 2)(x - 3)</div>
+<div class="question" onclick="toggleAnswer('q8')">
+  If p(x) = x² - 3x + 2, find p(1), p(2), and p(0).
+</div>
+<div class="answer" id="q8">
+  <strong>Step-by-step evaluation:</strong><br>
+  - p(1) = 1² - 3×1 + 2 = 1 - 3 + 2 = 0<br>
+  - p(2) = 2² - 3×2 + 2 = 4 - 6 + 2 = 0<br>
+  - p(0) = 0² - 3×0 + 2 = 0 + 0 + 2 = 2<br><br>
+  <strong>Conclusion:</strong> p(1) = 0, p(2) = 0, p(0) = 2
+</div>
 
-  <div class="question" onclick="toggleAnswer('q10')">Show that x = 2 is a zero of the polynomial x² - 4x + 4.</div>
-  <div class="answer" id="q10">Substitute x = 2: 4 - 8 + 4 = 0 ⇒ x = 2 is a zero.</div>
+<div class="question" onclick="toggleAnswer('q9')">
+  Factorize x² - 5x + 6.
+</div>
+<div class="answer" id="q9">
+  <strong>Method:</strong><br>
+  - Find two numbers whose product is 6 and sum is -5.<br>
+  - Numbers: -2 and -3<br>
+  - Rewrite: <code>x² - 2x - 3x + 6</code><br>
+  - Group and factor: <code>x(x - 2) - 3(x - 2)</code><br>
+  - Final factorization: <code>(x - 2)(x - 3)</code><br><br>
+  <strong>Conclusion:</strong> x² - 5x + 6 = (x - 2)(x - 3)
+</div>
 
-  <div class="question" onclick="toggleAnswer('q11')">Divide x³ + 3x² + 3x + 1 by x + 1.</div>
-  <div class="answer" id="q11">Using long division or identity: (x + 1)³ = x³ + 3x² + 3x + 1</div>
+<div class="question" onclick="toggleAnswer('q10')">
+  Show that x = 2 is a zero of the polynomial x² - 4x + 4.
+</div>
+<div class="answer" id="q10">
+  <strong>Verification:</strong><br>
+  - Substitute x = 2 into the polynomial:<br>
+  - <code>x² - 4x + 4 = 2² - 4×2 + 4 = 4 - 8 + 4 = 0</code><br><br>
+  <strong>Conclusion:</strong> Since the value is 0, x = 2 is a zero of the polynomial.
+</div>
+
+<div class="question" onclick="toggleAnswer('q11')">
+  Divide x³ + 3x² + 3x + 1 by x + 1.
+</div>
+<div class="answer" id="q11">
+  <strong>Observation:</strong><br>
+  - The expression <code>x³ + 3x² + 3x + 1</code> matches the identity:<br>
+  - <code>(x + 1)³ = x³ + 3x² + 3x + 1</code><br><br>
+  <strong>Conclusion:</strong> Quotient = <code>(x + 1)²</code>, Remainder = 0<br>
+  <strong>Alternate Method:</strong> You can also use long division to verify.
+</div>
+
 
   <h2>Chapter 3: Linear Equations in Two Variables</h2>
   <div class="question" onclick="toggleAnswer('q12')">Write the standard form of a linear equation in two variables.
