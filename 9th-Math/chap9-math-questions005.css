@@ -35,15 +35,11 @@ h1, h2 {
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-  position: relative; /* Needed for absolute positioning of child */
 }
-
-/* Container for centering */
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 /* Links */
@@ -58,23 +54,15 @@ a:hover {
 
 /* SVG hover effect */
 .hover-shape {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   transition: transform 1.3s ease;
-  transform-origin: center center;
 }
 
 .hover-shape:hover {
-  transform: translate(-50%, -50%) scale(8.05);
+  transform: scale(8.05);
   cursor: pointer;
-  z-index: 10;
+  position: relative;
 }
 
-/* SVG alignment fix */
 .svg {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  align-content: center;
 }
