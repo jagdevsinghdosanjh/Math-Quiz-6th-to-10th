@@ -67,7 +67,7 @@ a:hover {
 }
 
 .hover-shape:hover {
-  transform: translate(-50%, -50%) scale(8.05);
+  transform: translate(-50%, -50%) scale(5.05);
   cursor: pointer;
   z-index: 10;
 }
