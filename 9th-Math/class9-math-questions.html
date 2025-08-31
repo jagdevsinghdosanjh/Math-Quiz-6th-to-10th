@@ -556,26 +556,34 @@ This means there is <em>no horizontal or vertical displacement</em> from the cen
   <strong>Sum:</strong> 180°
 </div>
 
-<!-- Expanded Explanation Section -->
+<!-- Elaborative Explanation Section -->
 <div class="question" onclick="toggleAnswer('q123')">
-  Elaborative explanation with diagrams for Chapter 7
+  Elaborative explanation with diagram
 </div>
 <div class="answer" id="q123">
   <strong>1. Vertically Opposite Angles:</strong><br>
   When two lines intersect, they form two pairs of vertically opposite angles.<br>
-  <img src="https://i.imgur.com/4ZzZfYg.png" alt="Vertically Opposite Angles Diagram" width="300"><br>
-  ∠AOC = ∠BOD and ∠AOD = ∠BOC
+  These angles are equal in measure.<br><br>
 
-  <br><br><strong>2. Supplementary Angles:</strong><br>
-  Two angles whose sum is 180°.<br>
-  Example: If one angle is 65°, the other is 180° - 65° = <strong>115°</strong><br>
-  <img src="https://i.imgur.com/3WfZz3g.png" alt="Supplementary Angles Diagram" width="300">
+  <strong>2. Supplementary Angles:</strong><br>
+  Two angles whose measures add up to 180°.<br>
+  Example: If one angle is 65°, the other is 115°.<br><br>
 
-  <br><br><strong>3. Linear Pair of Angles:</strong><br>
-  Two adjacent angles whose non-common arms form a straight line.<br>
-  <img src="https://i.imgur.com/1gZzY3h.png" alt="Linear Pair Diagram" width="300"><br>
-  ∠AOC + ∠COB = 180°
+  <strong>3. Linear Pair:</strong><br>
+  A pair of adjacent angles formed when two lines intersect.<br>
+  Their non-common arms form a straight line, and their sum is 180°.<br><br>
+
+  <strong>Diagram:</strong><br>
+  <img src="your-uploaded-image-path.png" alt="Lines and Angles Diagram" width="400"><br>
+  <em>This diagram illustrates vertically opposite angles, supplementary angles, and linear pairs.</em>
 </div>
+
+<script>
+  function toggleAnswer(id) {
+    var answer = document.getElementById(id);
+    answer.style.display = (answer.style.display === "block") ? "none" : "block";
+  }
+</script>
 
 <style>
   .question {
@@ -593,7 +601,6 @@ This means there is <em>no horizontal or vertical displacement</em> from the cen
     border-left: 4px solid #2196F3;
   }
 </style>
-
 
   <script>
     function toggleAnswer(id) {
