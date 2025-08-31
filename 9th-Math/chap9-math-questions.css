@@ -36,6 +36,11 @@ h1, h2 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Links */
 a {
