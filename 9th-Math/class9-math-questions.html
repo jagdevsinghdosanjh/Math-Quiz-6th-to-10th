@@ -574,6 +574,28 @@ This means there is <em>no horizontal or vertical displacement</em> from the cen
   Their non-common arms form a straight line, and their sum is 180°.<br><br>
 
   <strong>Diagram:</strong><br>
+  <svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Intersecting lines -->
+  <line x1="50" y1="250" x2="350" y2="50" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="50" x2="350" y2="250" stroke="black" stroke-width="2"/>
+
+  <!-- Angle labels -->
+  <text x="60" y="60" font-size="14" fill="blue">∠A</text>
+  <text x="330" y="60" font-size="14" fill="blue">∠B</text>
+  <text x="60" y="240" font-size="14" fill="blue">∠C</text>
+  <text x="330" y="240" font-size="14" fill="blue">∠D</text>
+
+  <!-- Arcs to show angles -->
+  <path d="M70 70 A30 30 0 0 1 100 100" stroke="blue" fill="none"/>
+  <path d="M330 70 A30 30 0 0 0 300 100" stroke="blue" fill="none"/>
+  <path d="M70 230 A30 30 0 0 0 100 200" stroke="blue" fill="none"/>
+  <path d="M330 230 A30 30 0 0 1 300 200" stroke="blue" fill="none"/>
+
+  <!-- Labels -->
+  <text x="150" y="280" font-size="12" fill="gray">Vertically opposite angles: ∠A = ∠D, ∠B = ∠C</text>
+  <text x="150" y="295" font-size="12" fill="gray">Linear pair: ∠A + ∠B = 180°</text>
+</svg>
+
   <img src="your-uploaded-image-path.png" alt="Lines and Angles Diagram" width="400"><br>
   <em>This diagram illustrates vertically opposite angles, supplementary angles, and linear pairs.</em>
 </div>
