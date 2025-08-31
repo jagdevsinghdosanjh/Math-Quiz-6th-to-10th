@@ -53,7 +53,7 @@ a:hover {
 }
 
 .hover-shape:hover {
-  transform: scale(14.05);
+  transform: scale(8.05);
   cursor: pointer;
   position: relative;
 }
