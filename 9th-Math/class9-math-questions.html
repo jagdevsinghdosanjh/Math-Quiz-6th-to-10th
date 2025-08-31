@@ -600,6 +600,50 @@ This means there is <em>no horizontal or vertical displacement</em> from the cen
   <em>This diagram illustrates vertically opposite angles, supplementary angles, and linear pairs.</em>
 </div>
 
+<br>
+<hr>
+<strong>One more Diagram:</strong><br>
+
+<div>
+  <svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Lines AC and BD -->
+  <line x1="50" y1="350" x2="350" y2="50" stroke="black" stroke-width="2"/>
+  <line x1="50" y1="50" x2="350" y2="350" stroke="black" stroke-width="2"/>
+
+  <!-- Point O -->
+  <circle cx="200" cy="200" r="4" fill="black"/>
+
+  <!-- Labels for points -->
+  <text x="45" y="45" font-size="16" font-family="serif">B</text>
+  <text x="355" y="45" font-size="16" font-family="serif">A</text>
+  <text x="45" y="355" font-size="16" font-family="serif">C</text>
+  <text x="355" y="355" font-size="16" font-family="serif">D</text>
+  <text x="205" y="195" font-size="16" font-family="serif">O</text>
+
+  <!-- Red arcs for angles -->
+  <!-- ∠D arc -->
+  <path d="M180 120 A30 30 0 0 1 150 150" stroke="red" stroke-width="2" fill="none"/>
+  <text x="160" y="125" font-size="16" font-family="serif" fill="black">∠D</text>
+
+  <!-- ∠C arc -->
+  <path d="M220 280 A30 30 0 0 1 250 250" stroke="red" stroke-width="2" fill="none"/>
+  <text x="225" y="275" font-size="16" font-family="serif" fill="black">∠C</text>
+
+  <!-- Angle equalities -->
+  <text x="260" y="150" font-size="16" font-family="serif">∠D = ∠DOC</text>
+  <text x="260" y="170" font-size="16" font-family="serif">∠C = ∠COB</text>
+
+  <!-- Intersection note -->
+  <text x="80" y="380" font-size="16" font-family="serif">
+    O = Point of intersection of lines 'AC' and 'BD'
+  </text>
+</svg>
+
+</div>
+
 <script>
   function toggleAnswer(id) {
     var answer = document.getElementById(id);
