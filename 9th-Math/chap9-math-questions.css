@@ -49,15 +49,17 @@ a:hover {
 
 /* SVG hover effect */
 .hover-shape {
-  transition: transform 0.3s ease;
-  display: block;
-  margin: 0 auto;
-}
-
-.hover-shape:hover {
-  transform: scale(1.4) translate(-50%, -50%);
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+  transform-origin: center center;
+}
+
+.hover-shape:hover {
+  transform: translate(-50%, -50%) scale(14.05);
+  cursor: pointer;
   z-index: 10;
 }
+
