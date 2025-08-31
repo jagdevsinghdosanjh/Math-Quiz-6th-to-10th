@@ -53,6 +53,6 @@ a:hover {
 }
 
 .hover-shape:hover {
-  transform: scale(4.05);
+  transform: scale(14.05);
   cursor: pointer;
 }
