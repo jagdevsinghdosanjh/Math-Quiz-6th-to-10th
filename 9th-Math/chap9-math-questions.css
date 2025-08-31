@@ -49,10 +49,10 @@ a:hover {
 
 /* SVG hover effect */
 .hover-shape {
-  transition: transform 0.3s ease;
+  transition: transform 1.3s ease;
 }
 
 .hover-shape:hover {
-  transform: scale(1.05);
+  transform: scale(4.05);
   cursor: pointer;
 }
