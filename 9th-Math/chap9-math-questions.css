@@ -47,13 +47,21 @@ a:hover {
   text-decoration: underline;
 }
 
+.container{
+  position:relative;
+}
 /* SVG hover effect */
 .hover-shape {
-  transition: transform 1.3s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+  transform-origin: center center;
 }
 
 .hover-shape:hover {
-  transform: scale(14.05);
+  transform: translate(-50%, -50%) scale(14.05);
   cursor: pointer;
-  position: relative;
+  z-index: 10;
 }
