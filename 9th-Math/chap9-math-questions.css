@@ -55,5 +55,5 @@ a:hover {
 .hover-shape:hover {
   transform: scale(14.05);
   cursor: pointer;
-  align-items: center;
+  
 }
