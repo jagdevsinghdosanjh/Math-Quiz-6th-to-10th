@@ -1,60 +1,58 @@
- body {
-   font-family: 'Segoe UI', sans-serif;
-   margin: 2rem;
-   background-color: #f9f9f9;
-   color: #333;
- }
+/* Base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
 
- h1,
- h2 {
-   color: #2c3e50;
- }
+h1, h2 {
+  color: #2c3e50;
+}
 
- .question {
-   cursor: pointer;
-   margin: 0.5rem 0;
-   padding: 0.5rem;
-   background-color: #e0ecf8;
-   border-radius: 5px;
-   transition: background-color 0.3s;
- }
+/* Question block */
+.question {
+  font-weight: bold;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background-color: #e0ecf8;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
 
- .question:hover {
-   background-color: #d0e0f0;
- }
+.question:hover {
+  background-color: #d0e0f0;
+}
 
- .answer {
-   display: none;
-   margin: 0.3rem 1rem;
-   padding: 0.5rem;
-   background-color: #fff;
-   border-left: 3px solid #0077cc;
- }
+/* Answer block */
+.answer {
+  display: none;
+  margin: 0.5rem 1.5rem 1.5rem;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-left: 4px solid #0077cc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
 
- a {
-   color: #0077cc;
-   text-decoration: none;
- }
+/* Links */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
 
- a:hover {
-   text-decoration: underline;
- }
+a:hover {
+  text-decoration: underline;
+}
 
- .hover-shape:hover {
-   transform: scale(1.05);
-   transition: transform 0.3s ease;
-   cursor: pointer;
- }
+/* SVG hover effect */
+.hover-shape {
+  transition: transform 0.3s ease;
+}
 
- .question {
-   font-weight: bold;
-   margin-top: 20px;
-   cursor: pointer;
- }
-
- .answer {
-   margin-bottom: 20px;
-   padding: 10px;
-   background-color: #f9f9f9;
-   border-left: 4px solid #ccc;
- }
+.hover-shape:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
