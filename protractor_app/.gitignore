@@ -1,1 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
 venv/
+.env/
+.envrc
+*.env
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter (if used for prototyping)
+.ipynb_checkpoints/
+
+# Deployment
+vercel/
+.vercel/
+*.sqlite3
+*.db
+
+# SVG or image cache (if generated dynamically)
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Misc
+*.bak
+*.tmp
