@@ -1,117 +1,153 @@
-\documentclass[12pt,a4paper]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{fancyhdr}
-\usepackage{amsmath}
-\usepackage{graphicx}
-\usepackage{tikz}
+export const paper1Class9 = {
+  title: "Class 9 CBSE – Paper 1",
+  date: "October 23, 2025 (Thursday)",
+  source: "dosanjhpubsasr.org",
+  sections: [
+    {
+      heading: "Section A – 1 mark each",
+      questions: [
+        {
+          q: "Write the decimal expansion of 1/7.",
+          a: `\\( \\frac{1}{7} = 0.\\overline{142857} \\)  
+This is a non-terminating recurring decimal.  
+\\textbf{Conclusion:} Rational number with repeating block \\( 142857 \\).`
+        },
+        {
+          q: "Find the degree of the polynomial \\( 3x^4 - 5x^2 + 7 \\).",
+          a: "The highest power of \\( x \\) is 4.  
+\\textbf{Answer:} Degree = \\( 4 \\)"
+        },
+        {
+          q: "What is the x-coordinate where the graph intersects the x-axis?",
+          a: "At x-axis, \\( y = 0 \\). Solve the equation for \\( x \\)."
+        },
+        {
+          q: "State Euclid’s first axiom.",
+          a: "Things which are equal to the same thing are equal to one another."
+        },
+        {
+          q: "If two lines intersect, how many common points do they have?",
+          a: "Exactly one point."
+        }
+      ]
+    },
+    {
+      heading: "Section B – 2 marks each",
+      questions: [
+        {
+          q: "Rationalize \\( \\frac{1}{\\sqrt{3} + \\sqrt{2}} \\).",
+          a: `Multiply by conjugate:  
+\
 
-\pagestyle{fancy}
-\fancyhf{}
-\lhead{\textbf{Class Ninth CBSE – Paper 1}}
-\chead{\textbf{October 23, 2025 (Thursday)}}
-\rhead{}
-\cfoot{\small\textit{Educational Service: \texttt{dosanjhpubsasr.org}}}
+\[
+\\frac{1}{\\sqrt{3} + \\sqrt{2}} \\cdot \\frac{\\sqrt{3} - \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} = \\frac{\\sqrt{3} - \\sqrt{2}}{1}
+\\]
 
-\begin{document}
+`
+        },
+        {
+          q: "Factorize \\( x^2 - 5x + 6 \\).",
+          a: `Find two numbers whose product is 6 and sum is –5:  
+\
 
-\begin{center}
-    \LARGE \textbf{Mathematics – NCERT Chapters 1 to 7} \\
-    \large \textbf{Maximum Marks: 80 \hspace{2cm} Time: 3 Hours}
-\end{center}
+\[
+x^2 - 5x + 6 = (x - 2)(x - 3)
+\\]
 
-\vspace{0.5cm}
-\noindent\textbf{General Instructions:}
-\begin{itemize}
-    \item All questions are compulsory.
-    \item Use of calculator is not permitted.
-    \item The paper is divided into four sections: A, B, C, and D.
-    \item Show all working clearly.
-\end{itemize}
+`
+        },
+        {
+          q: "Plot the point (3, –2) and mention the quadrant.",
+          a: "x > 0, y < 0 ⇒ Quadrant IV."
+        },
+        {
+          q: "Write the equation: “Sum of a number and 5 is 9.”",
+          a: "Let number be \\( x \\):  
+\\( x + 5 = 9 \\)"
+        },
+        {
+          q: "If \\( \\angle A + \\angle B = 180^\\circ \\), what is the relation between AB and CD?",
+          a: "AB ∥ CD (co-interior angles)."
+        }
+      ]
+    },
+    {
+      heading: "Section C – 3 marks each",
+      questions: [
+        {
+          q: "Find \\( a \\) if \\( x^2 + ax + 6 \\) has (–2) as a zero.",
+          a: `Substitute \\( x = -2 \\):  
+\
 
-\vspace{0.5cm}
-\section*{Section A – (1 mark each)}
+\[
+(-2)^2 + a(-2) + 6 = 0 \\Rightarrow 4 - 2a + 6 = 0 \\Rightarrow a = 5
+\\]
 
-\begin{enumerate}
-    \item Write the decimal expansion of \( \frac{1}{7} \).
-    \item Find the degree of the polynomial \( 3x^4 - 5x^2 + 7 \).
-    \item What is the x-coordinate of the point where the graph of a linear equation in two variables intersects the x-axis?
-    \item State Euclid’s first axiom.
-    \item If two lines intersect, how many common points do they have?
-\end{enumerate}
+`
+        },
+        {
+          q: "Show that \\( \\sqrt{5} \\) is irrational.",
+          a: `Assume \\( \\sqrt{5} = \\frac{p}{q} \\Rightarrow p^2 = 5q^2 \\).  
+This implies p divisible by 5 ⇒ contradiction.  
+\\textbf{Conclusion:} Irrational.`
+        },
+        {
+          q: "Draw the graph of \\( x + y = 4 \\).",
+          a: `Points: (0,4), (2,2), (4,0).  
+Plot and draw a straight line through these points.`
+        },
+        {
+          q: "Prove vertically opposite angles are equal.",
+          a: "Use intersecting lines diagram and angle properties.  
+\\( \\angle A = \\angle D, \\angle B = \\angle C \\)"
+        },
+        {
+          q: "In triangle ABC, AB = AC and \\( \\angle B = 50^\\circ \\). Find \\( \\angle C \\) and \\( \\angle A \\).",
+          a: `Isosceles triangle ⇒ \\( \\angle C = 50^\\circ \\)  
+\
 
-\section*{Section B – (2 marks each)}
+\[
+\\angle A = 180^\\circ - (50^\\circ + 50^\\circ) = 80^\\circ
+\\]
 
-\begin{enumerate}\setcounter{enumi}{5}
-    \item Rationalize the denominator of \( \frac{1}{\sqrt{3} + \sqrt{2}} \).
-    \item Factorize: \( x^2 - 5x + 6 \).
-    \item Plot the point (3, –2) on the Cartesian plane and mention the quadrant.
-    \item Write the linear equation representing: “The sum of a number and 5 is 9.”
-    \item In the figure, if \( \angle A + \angle B = 180^\circ \), what is the relation between line AB and CD?
-\end{enumerate}
+`
+        }
+      ]
+    },
+    {
+      heading: "Section D – 4 marks each",
+      questions: [
+        {
+          q: "Divide \\( 2x^3 + 3x^2 - 5x + 6 \\) by \\( x - 2 \\).",
+          a: `Use long division:  
+Quotient = \\( 2x^2 + 7x + 9 \\), Remainder = 24`
+        },
+        {
+          q: "Prove sum of angles in triangle is \\( 180^\\circ \\).",
+          a: "Use angle sum property or parallel line construction."
+        },
+        {
+          q: "In triangle XYZ, XY = XZ and \\( \\angle Y = 40^\\circ \\). Find all angles.",
+          a: `\\( \\angle Z = 40^\\circ \\),  
+\
 
-\section*{Section C – (3 marks each)}
+\[
+\\angle X = 180^\\circ - (40^\\circ + 40^\\circ) = 100^\\circ
+\\]
 
-\begin{enumerate}\setcounter{enumi}{10}
-    \item Find the value of \( a \) if the polynomial \( x^2 + ax + 6 \) has (–2) as a zero.
-    \item Show that \( \sqrt{5} \) is irrational.
-    \item Draw the graph of the equation \( x + y = 4 \).
-    \item Prove: If two lines intersect, the vertically opposite angles are equal.
-    \item In triangle ABC, if AB = AC and \( \angle B = 50^\circ \), find \( \angle C \) and \( \angle A \).
-\end{enumerate}
-
-\section*{Section D – (4 marks each)}
-
-\begin{enumerate}\setcounter{enumi}{15}
-    \item Divide \( 2x^3 + 3x^2 - 5x + 6 \) by \( x - 2 \) and write the quotient and remainder.
-    \item Prove that the sum of the angles of a triangle is \( 180^\circ \).
-    \item In triangle XYZ, XY = XZ and \( \angle Y = 40^\circ \). Find all angles of the triangle.
-    \item Using Euclid’s axioms, prove that if equals are added to equals, the wholes are equal.
-    \item Prove that in a triangle, sides opposite to equal angles are equal.
-\end{enumerate}
-
-\newpage
-\section*{Answer Key}
-
-\textbf{Section A:}
-\begin{enumerate}
-    \item \( 0.\overline{142857} \)
-    \item 4
-    \item The x-coordinate is the solution when \( y = 0 \)
-    \item Things which are equal to the same thing are equal to one another.
-    \item One point
-\end{enumerate}
-
-\textbf{Section B:}
-\begin{enumerate}\setcounter{enumi}{5}
-    \item \( \frac{\sqrt{3} - \sqrt{2}}{1} \)
-    \item \( (x - 2)(x - 3) \)
-    \item Quadrant IV
-    \item \( x + 5 = 9 \)
-    \item AB and CD are parallel
-\end{enumerate}
-
-\textbf{Section C:}
-\begin{enumerate}\setcounter{enumi}{10}
-    \item \( a = 5 \)
-    \item Proof by contradiction using \( \sqrt{5} = \frac{p}{q} \)
-    \item Points: (0,4), (2,2), (4,0)
-    \item Use angle properties
-    \item \( \angle C = 50^\circ, \angle A = 80^\circ \)
-\end{enumerate}
-
-\textbf{Section D:}
-\begin{enumerate}\setcounter{enumi}{15}
-    \item Quotient: \( 2x^2 + 7x + 9 \), Remainder: 24
-    \item \( \angle A + \angle B + \angle C = 180^\circ \)
-    \item \( \angle Z = 40^\circ, \angle X = 100^\circ \)
-    \item If \( a = b \), \( c = d \) then \( a + c = b + d \)
-    \item \( \angle A = \angle B \Rightarrow \) opposite sides are equal
-\end{enumerate}
-
-\vfill
-\begin{center}
-\textit{Educational Service: \texttt{dosanjhpubsasr.org}} \\
-\textit{October 23, 2025 \hspace{1cm} Paper 1}
-\end{center}
-
-\end{document}
+`
+        },
+        {
+          q: "Using Euclid’s axioms, prove: equals added to equals are equal.",
+          a: `Let \\( a = b \\), \\( c = d \\) ⇒  
+\\( a + c = b + d \\)`
+        },
+        {
+          q: "Prove: In triangle, sides opposite equal angles are equal.",
+          a: `If \\( \\angle A = \\angle B \\),  
+Then side opposite \\( \\angle A \\) = side opposite \\( \\angle B \\)`
+        }
+      ]
+    }
+  ]
+};
