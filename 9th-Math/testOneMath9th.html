@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <title>Class 9 CBSE – Paper 1</title>
   <link rel="stylesheet" href="class9-math-questions.css" />
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
   <style>
     .question {
       cursor: pointer;
@@ -21,7 +23,7 @@
       background-color: #e8f4fc;
       border-left: 4px solid #2196F3;
     }
-    h1, h2 {
+    h1, h2, h3 {
       text-align: center;
     }
     footer {
@@ -42,28 +44,31 @@
 
 <div class="question" onclick="toggleAnswer('q1')">1. Write the decimal expansion of 1/7.</div>
 <div class="answer" id="q1">
-  \( \frac{1}{7} = 0.\overline{142857} \)<br>
-  Non-terminating recurring decimal. Rational number.
+  Divide 1 by 7: \( \frac{1}{7} = 0.\overline{142857} \)<br>
+  The digits repeat infinitely.  
+  <strong>Conclusion:</strong> Non-terminating recurring decimal ⇒ Rational number.
 </div>
 
 <div class="question" onclick="toggleAnswer('q2')">2. Find the degree of the polynomial \( 3x^4 - 5x^2 + 7 \).</div>
 <div class="answer" id="q2">
-  Degree = 4
+  The highest power of \( x \) is 4.  
+  <strong>Answer:</strong> Degree = 4
 </div>
 
 <div class="question" onclick="toggleAnswer('q3')">3. What is the x-coordinate where the graph intersects the x-axis?</div>
 <div class="answer" id="q3">
-  At x-axis, y = 0. Solve the equation for x.
+  On the x-axis, \( y = 0 \).  
+  Solve the equation for \( x \) when \( y = 0 \).
 </div>
 
 <div class="question" onclick="toggleAnswer('q4')">4. State Euclid’s first axiom.</div>
 <div class="answer" id="q4">
-  Things which are equal to the same thing are equal to one another.
+  “Things which are equal to the same thing are equal to one another.”
 </div>
 
 <div class="question" onclick="toggleAnswer('q5')">5. If two lines intersect, how many common points do they have?</div>
 <div class="answer" id="q5">
-  One point.
+  Exactly one point.
 </div>
 
 <!-- Section B -->
@@ -71,60 +76,104 @@
 
 <div class="question" onclick="toggleAnswer('q6')">6. Rationalize \( \frac{1}{\sqrt{3} + \sqrt{2}} \).</div>
 <div class="answer" id="q6">
-  Multiply by conjugate:<br>
-  \( \frac{1}{\sqrt{3} + \sqrt{2}} \cdot \frac{\sqrt{3} - \sqrt{2}}{\sqrt{3} - \sqrt{2}} = \frac{\sqrt{3} - \sqrt{2}}{1} \)
+  Multiply numerator and denominator by the conjugate:<br>
+  
+
+\[
+  \frac{1}{\sqrt{3} + \sqrt{2}} \cdot \frac{\sqrt{3} - \sqrt{2}}{\sqrt{3} - \sqrt{2}} = \frac{\sqrt{3} - \sqrt{2}}{1}
+  \]
+
+
 </div>
 
 <div class="question" onclick="toggleAnswer('q7')">7. Factorize \( x^2 - 5x + 6 \).</div>
 <div class="answer" id="q7">
-  \( x^2 - 5x + 6 = (x - 2)(x - 3) \)
+  Find two numbers whose product is 6 and sum is –5:  
+  
+
+\[
+  x^2 - 5x + 6 = (x - 2)(x - 3)
+  \]
+
+
 </div>
 
 <div class="question" onclick="toggleAnswer('q8')">8. Plot the point (3, –2) and mention the quadrant.</div>
 <div class="answer" id="q8">
-  Quadrant IV (x > 0, y < 0)
+  x > 0, y < 0 ⇒ Quadrant IV
 </div>
 
 <div class="question" onclick="toggleAnswer('q9')">9. Write the equation: “Sum of a number and 5 is 9.”</div>
 <div class="answer" id="q9">
-  Let number be x: \( x + 5 = 9 \)
+  Let number be \( x \):  
+  
+
+\[
+  x + 5 = 9
+  \]
+
+
 </div>
 
-<div class="question" onclick="toggleAnswer('q10')">10. If ∠A + ∠B = 180°, what is the relation between AB and CD?</div>
+<div class="question" onclick="toggleAnswer('q10')">10. If \( \angle A + \angle B = 180^\circ \), what is the relation between AB and CD?</div>
 <div class="answer" id="q10">
-  AB ∥ CD (co-interior angles)
+  Co-interior angles ⇒ AB ∥ CD
 </div>
 
 <!-- Section C -->
 <h3>Section C – 3 marks each</h3>
 
-<div class="question" onclick="toggleAnswer('q11')">11. Find a if \( x^2 + ax + 6 \) has (–2) as a zero.</div>
+<div class="question" onclick="toggleAnswer('q11')">11. Find \( a \) if \( x^2 + ax + 6 \) has (–2) as a zero.</div>
 <div class="answer" id="q11">
-  Substitute x = –2:  
-  \( 4 - 2a + 6 = 0 \Rightarrow a = 5 \)
+  Substitute \( x = -2 \):  
+  
+
+\[
+  (-2)^2 + a(-2) + 6 = 0 \Rightarrow 4 - 2a + 6 = 0 \Rightarrow a = 5
+  \]
+
+
 </div>
 
 <div class="question" onclick="toggleAnswer('q12')">12. Show that \( \sqrt{5} \) is irrational.</div>
 <div class="answer" id="q12">
   Assume \( \sqrt{5} = \frac{p}{q} \Rightarrow p^2 = 5q^2 \).  
-  Contradiction ⇒ irrational.
+  This implies p divisible by 5 ⇒ contradiction.  
+  <strong>Conclusion:</strong> Irrational.
 </div>
 
 <div class="question" onclick="toggleAnswer('q13')">13. Draw the graph of \( x + y = 4 \).</div>
 <div class="answer" id="q13">
-  Points: (0,4), (2,2), (4,0).  
-  Draw a straight line through these.
+  Choose values:  
+  - x = 0 ⇒ y = 4  
+  - x = 2 ⇒ y = 2  
+  - x = 4 ⇒ y = 0  
+  Plot: (0,4), (2,2), (4,0) and draw a line.
 </div>
 
 <div class="question" onclick="toggleAnswer('q14')">14. Prove vertically opposite angles are equal.</div>
 <div class="answer" id="q14">
-  Use intersecting lines diagram:  
-  ∠A = ∠D, ∠B = ∠C
+  When two lines intersect, opposite angles share vertex and are formed by same lines.  
+  Use angle properties:  
+  
+
+\[
+  \angle A = \angle D, \quad \angle B = \angle C
+  \]
+
+
 </div>
 
-<div class="question" onclick="toggleAnswer('q15')">15. In triangle ABC, AB = AC and ∠B = 50°, find ∠C and ∠A.</div>
+<div class="question" onclick="toggleAnswer('q15')">15. In triangle ABC, AB = AC and \( \angle B = 50^\circ \). Find \( \angle C \) and \( \angle A \).</div>
 <div class="answer" id="q15">
-  ∠C = 50°, ∠A = 80°
+  Isosceles triangle ⇒ \( \angle C = 50^\circ \)  
+  
+
+\[
+  \angle A = 180^\circ - (50^\circ + 50^\circ) = 80^\circ
+  \]
+
+
 </div>
 
 <!-- Section D -->
@@ -132,28 +181,73 @@
 
 <div class="question" onclick="toggleAnswer('q16')">16. Divide \( 2x^3 + 3x^2 - 5x + 6 \) by \( x - 2 \).</div>
 <div class="answer" id="q16">
-  Quotient: \( 2x^2 + 7x + 9 \), Remainder: 24
+  Use long division:  
+  Quotient = \( 2x^2 + 7x + 9 \), Remainder = 24
 </div>
 
-<div class="question" onclick="toggleAnswer('q17')">17. Prove sum of angles in triangle is 180°.</div>
+<div class="question" onclick="toggleAnswer('q17')">17. Prove sum of angles in triangle is \( 180^\circ \).</div>
 <div class="answer" id="q17">
   Use angle sum property:  
-  ∠A + ∠B + ∠C = 180°
-</div>
+  
 
-<div class="question" onclick="toggleAnswer('q18')">18. In triangle XYZ, XY = XZ and ∠Y = 40°. Find all angles.</div>
+\[
+  \angle A + \angle B + \angle C = 180^\circ
+  \]
+
+
+</div>
+<!-- CONTINUATION FROM QUESTION 18 -->
+<div class="question" onclick="toggleAnswer('q18')">18. In triangle XYZ, XY = XZ and \( \angle Y = 40^\circ \). Find all angles.</div>
 <div class="answer" id="q18">
-  ∠Z = 40°, ∠X = 100°
+  Triangle XYZ is isosceles with XY = XZ, so angles opposite these sides are equal.  
+  
+
+\[
+  \angle Y = \angle Z = 40^\circ
+  \]
+
+  
+  Use angle sum property:  
+  
+
+\[
+  \angle X = 180^\circ - (40^\circ + 40^\circ) = 100^\circ
+  \]
+
+  
+  <strong>Final Answer:</strong> \( \angle X = 100^\circ, \angle Y = \angle Z = 40^\circ \)
 </div>
 
 <div class="question" onclick="toggleAnswer('q19')">19. Using Euclid’s axioms, prove: equals added to equals are equal.</div>
 <div class="answer" id="q19">
-  Let a = b, c = d ⇒ a + c = b + d
+  Let \( a = b \) and \( c = d \).  
+  According to Euclid’s axiom:  
+  <em>“If equals are added to equals, the wholes are equal.”</em>  
+  So:  
+  
+
+\[
+  a + c = b + d
+  \]
+
+  
+  <strong>Conclusion:</strong> The sum of equal quantities is equal.
 </div>
 
 <div class="question" onclick="toggleAnswer('q20')">20. Prove: In triangle, sides opposite equal angles are equal.</div>
 <div class="answer" id="q20">
-  If ∠A = ∠B ⇒ side opposite ∠A = side opposite ∠B
+  Let triangle ABC have \( \angle B = \angle C \).  
+  By the converse of the Isosceles Triangle Theorem:  
+  Sides opposite equal angles are equal.  
+  So:  
+  
+
+\[
+  AB = AC
+  \]
+
+  
+  <strong>Conclusion:</strong> In any triangle, if two angles are equal, their opposite sides are equal.
 </div>
 
 <!-- Footer -->
