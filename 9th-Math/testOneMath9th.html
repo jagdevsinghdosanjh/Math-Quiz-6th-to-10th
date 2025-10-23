@@ -1,153 +1,171 @@
-export const paper1Class9 = {
-  title: "Class 9 CBSE – Paper 1",
-  date: "October 23, 2025 (Thursday)",
-  source: "dosanjhpubsasr.org",
-  sections: [
-    {
-      heading: "Section A – 1 mark each",
-      questions: [
-        {
-          q: "Write the decimal expansion of 1/7.",
-          a: `\\( \\frac{1}{7} = 0.\\overline{142857} \\)  
-This is a non-terminating recurring decimal.  
-\\textbf{Conclusion:} Rational number with repeating block \\( 142857 \\).`
-        },
-        {
-          q: "Find the degree of the polynomial \\( 3x^4 - 5x^2 + 7 \\).",
-          a: "The highest power of \\( x \\) is 4.  
-\\textbf{Answer:} Degree = \\( 4 \\)"
-        },
-        {
-          q: "What is the x-coordinate where the graph intersects the x-axis?",
-          a: "At x-axis, \\( y = 0 \\). Solve the equation for \\( x \\)."
-        },
-        {
-          q: "State Euclid’s first axiom.",
-          a: "Things which are equal to the same thing are equal to one another."
-        },
-        {
-          q: "If two lines intersect, how many common points do they have?",
-          a: "Exactly one point."
-        }
-      ]
-    },
-    {
-      heading: "Section B – 2 marks each",
-      questions: [
-        {
-          q: "Rationalize \\( \\frac{1}{\\sqrt{3} + \\sqrt{2}} \\).",
-          a: `Multiply by conjugate:  
-\
-
-\[
-\\frac{1}{\\sqrt{3} + \\sqrt{2}} \\cdot \\frac{\\sqrt{3} - \\sqrt{2}}{\\sqrt{3} - \\sqrt{2}} = \\frac{\\sqrt{3} - \\sqrt{2}}{1}
-\\]
-
-`
-        },
-        {
-          q: "Factorize \\( x^2 - 5x + 6 \\).",
-          a: `Find two numbers whose product is 6 and sum is –5:  
-\
-
-\[
-x^2 - 5x + 6 = (x - 2)(x - 3)
-\\]
-
-`
-        },
-        {
-          q: "Plot the point (3, –2) and mention the quadrant.",
-          a: "x > 0, y < 0 ⇒ Quadrant IV."
-        },
-        {
-          q: "Write the equation: “Sum of a number and 5 is 9.”",
-          a: "Let number be \\( x \\):  
-\\( x + 5 = 9 \\)"
-        },
-        {
-          q: "If \\( \\angle A + \\angle B = 180^\\circ \\), what is the relation between AB and CD?",
-          a: "AB ∥ CD (co-interior angles)."
-        }
-      ]
-    },
-    {
-      heading: "Section C – 3 marks each",
-      questions: [
-        {
-          q: "Find \\( a \\) if \\( x^2 + ax + 6 \\) has (–2) as a zero.",
-          a: `Substitute \\( x = -2 \\):  
-\
-
-\[
-(-2)^2 + a(-2) + 6 = 0 \\Rightarrow 4 - 2a + 6 = 0 \\Rightarrow a = 5
-\\]
-
-`
-        },
-        {
-          q: "Show that \\( \\sqrt{5} \\) is irrational.",
-          a: `Assume \\( \\sqrt{5} = \\frac{p}{q} \\Rightarrow p^2 = 5q^2 \\).  
-This implies p divisible by 5 ⇒ contradiction.  
-\\textbf{Conclusion:} Irrational.`
-        },
-        {
-          q: "Draw the graph of \\( x + y = 4 \\).",
-          a: `Points: (0,4), (2,2), (4,0).  
-Plot and draw a straight line through these points.`
-        },
-        {
-          q: "Prove vertically opposite angles are equal.",
-          a: "Use intersecting lines diagram and angle properties.  
-\\( \\angle A = \\angle D, \\angle B = \\angle C \\)"
-        },
-        {
-          q: "In triangle ABC, AB = AC and \\( \\angle B = 50^\\circ \\). Find \\( \\angle C \\) and \\( \\angle A \\).",
-          a: `Isosceles triangle ⇒ \\( \\angle C = 50^\\circ \\)  
-\
-
-\[
-\\angle A = 180^\\circ - (50^\\circ + 50^\\circ) = 80^\\circ
-\\]
-
-`
-        }
-      ]
-    },
-    {
-      heading: "Section D – 4 marks each",
-      questions: [
-        {
-          q: "Divide \\( 2x^3 + 3x^2 - 5x + 6 \\) by \\( x - 2 \\).",
-          a: `Use long division:  
-Quotient = \\( 2x^2 + 7x + 9 \\), Remainder = 24`
-        },
-        {
-          q: "Prove sum of angles in triangle is \\( 180^\\circ \\).",
-          a: "Use angle sum property or parallel line construction."
-        },
-        {
-          q: "In triangle XYZ, XY = XZ and \\( \\angle Y = 40^\\circ \\). Find all angles.",
-          a: `\\( \\angle Z = 40^\\circ \\),  
-\
-
-\[
-\\angle X = 180^\\circ - (40^\\circ + 40^\\circ) = 100^\\circ
-\\]
-
-`
-        },
-        {
-          q: "Using Euclid’s axioms, prove: equals added to equals are equal.",
-          a: `Let \\( a = b \\), \\( c = d \\) ⇒  
-\\( a + c = b + d \\)`
-        },
-        {
-          q: "Prove: In triangle, sides opposite equal angles are equal.",
-          a: `If \\( \\angle A = \\angle B \\),  
-Then side opposite \\( \\angle A \\) = side opposite \\( \\angle B \\)`
-        }
-      ]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Class 9 CBSE – Paper 1</title>
+  <link rel="stylesheet" href="class9-math-questions.css" />
+  <style>
+    .question {
+      cursor: pointer;
+      background-color: #f0f0f0;
+      padding: 10px;
+      margin-top: 10px;
+      font-weight: bold;
     }
-  ]
-};
+    .answer {
+      display: none;
+      padding: 10px;
+      background-color: #e8f4fc;
+      border-left: 4px solid #2196F3;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Class 9 CBSE – Paper 1</h1>
+<h2>October 23, 2025 (Thursday)</h2>
+
+<!-- Section A -->
+<h3>Section A – 1 mark each</h3>
+
+<div class="question" onclick="toggleAnswer('q1')">1. Write the decimal expansion of 1/7.</div>
+<div class="answer" id="q1">
+  \( \frac{1}{7} = 0.\overline{142857} \)<br>
+  Non-terminating recurring decimal. Rational number.
+</div>
+
+<div class="question" onclick="toggleAnswer('q2')">2. Find the degree of the polynomial \( 3x^4 - 5x^2 + 7 \).</div>
+<div class="answer" id="q2">
+  Degree = 4
+</div>
+
+<div class="question" onclick="toggleAnswer('q3')">3. What is the x-coordinate where the graph intersects the x-axis?</div>
+<div class="answer" id="q3">
+  At x-axis, y = 0. Solve the equation for x.
+</div>
+
+<div class="question" onclick="toggleAnswer('q4')">4. State Euclid’s first axiom.</div>
+<div class="answer" id="q4">
+  Things which are equal to the same thing are equal to one another.
+</div>
+
+<div class="question" onclick="toggleAnswer('q5')">5. If two lines intersect, how many common points do they have?</div>
+<div class="answer" id="q5">
+  One point.
+</div>
+
+<!-- Section B -->
+<h3>Section B – 2 marks each</h3>
+
+<div class="question" onclick="toggleAnswer('q6')">6. Rationalize \( \frac{1}{\sqrt{3} + \sqrt{2}} \).</div>
+<div class="answer" id="q6">
+  Multiply by conjugate:<br>
+  \( \frac{1}{\sqrt{3} + \sqrt{2}} \cdot \frac{\sqrt{3} - \sqrt{2}}{\sqrt{3} - \sqrt{2}} = \frac{\sqrt{3} - \sqrt{2}}{1} \)
+</div>
+
+<div class="question" onclick="toggleAnswer('q7')">7. Factorize \( x^2 - 5x + 6 \).</div>
+<div class="answer" id="q7">
+  \( x^2 - 5x + 6 = (x - 2)(x - 3) \)
+</div>
+
+<div class="question" onclick="toggleAnswer('q8')">8. Plot the point (3, –2) and mention the quadrant.</div>
+<div class="answer" id="q8">
+  Quadrant IV (x > 0, y < 0)
+</div>
+
+<div class="question" onclick="toggleAnswer('q9')">9. Write the equation: “Sum of a number and 5 is 9.”</div>
+<div class="answer" id="q9">
+  Let number be x: \( x + 5 = 9 \)
+</div>
+
+<div class="question" onclick="toggleAnswer('q10')">10. If ∠A + ∠B = 180°, what is the relation between AB and CD?</div>
+<div class="answer" id="q10">
+  AB ∥ CD (co-interior angles)
+</div>
+
+<!-- Section C -->
+<h3>Section C – 3 marks each</h3>
+
+<div class="question" onclick="toggleAnswer('q11')">11. Find a if \( x^2 + ax + 6 \) has (–2) as a zero.</div>
+<div class="answer" id="q11">
+  Substitute x = –2:  
+  \( 4 - 2a + 6 = 0 \Rightarrow a = 5 \)
+</div>
+
+<div class="question" onclick="toggleAnswer('q12')">12. Show that \( \sqrt{5} \) is irrational.</div>
+<div class="answer" id="q12">
+  Assume \( \sqrt{5} = \frac{p}{q} \Rightarrow p^2 = 5q^2 \).  
+  Contradiction ⇒ irrational.
+</div>
+
+<div class="question" onclick="toggleAnswer('q13')">13. Draw the graph of \( x + y = 4 \).</div>
+<div class="answer" id="q13">
+  Points: (0,4), (2,2), (4,0).  
+  Draw a straight line through these.
+</div>
+
+<div class="question" onclick="toggleAnswer('q14')">14. Prove vertically opposite angles are equal.</div>
+<div class="answer" id="q14">
+  Use intersecting lines diagram:  
+  ∠A = ∠D, ∠B = ∠C
+</div>
+
+<div class="question" onclick="toggleAnswer('q15')">15. In triangle ABC, AB = AC and ∠B = 50°, find ∠C and ∠A.</div>
+<div class="answer" id="q15">
+  ∠C = 50°, ∠A = 80°
+</div>
+
+<!-- Section D -->
+<h3>Section D – 4 marks each</h3>
+
+<div class="question" onclick="toggleAnswer('q16')">16. Divide \( 2x^3 + 3x^2 - 5x + 6 \) by \( x - 2 \).</div>
+<div class="answer" id="q16">
+  Quotient: \( 2x^2 + 7x + 9 \), Remainder: 24
+</div>
+
+<div class="question" onclick="toggleAnswer('q17')">17. Prove sum of angles in triangle is 180°.</div>
+<div class="answer" id="q17">
+  Use angle sum property:  
+  ∠A + ∠B + ∠C = 180°
+</div>
+
+<div class="question" onclick="toggleAnswer('q18')">18. In triangle XYZ, XY = XZ and ∠Y = 40°. Find all angles.</div>
+<div class="answer" id="q18">
+  ∠Z = 40°, ∠X = 100°
+</div>
+
+<div class="question" onclick="toggleAnswer('q19')">19. Using Euclid’s axioms, prove: equals added to equals are equal.</div>
+<div class="answer" id="q19">
+  Let a = b, c = d ⇒ a + c = b + d
+</div>
+
+<div class="question" onclick="toggleAnswer('q20')">20. Prove: In triangle, sides opposite equal angles are equal.</div>
+<div class="answer" id="q20">
+  If ∠A = ∠B ⇒ side opposite ∠A = side opposite ∠B
+</div>
+
+<!-- Footer -->
+<footer>
+  Educational Service: <a href="https://dosanjhpubsasr.org" target="_blank">dosanjhpubsasr.org</a><br>
+  Paper 1 – October 23, 2025
+</footer>
+
+<script>
+  function toggleAnswer(id) {
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
+
+</body>
+</html>
