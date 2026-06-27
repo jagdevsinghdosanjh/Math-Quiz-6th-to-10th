@@ -1,93 +1,167 @@
 [
   {
-    "question": "Which of the following is a rational number?",
-    "options": ["√2", "π", "3/4", "e"],
+    "question": "According to the Fundamental Theorem of Arithmetic, every composite number can be expressed as:",
+    "options": [
+      "A product of prime numbers in a unique way (except for the order of factors)",
+      "A sum of prime numbers only",
+      "A product of even numbers only",
+      "A multiple of 10"
+    ],
+    "correct": 0,
+    "explanation": "The Fundamental Theorem of Arithmetic states that every composite number has a unique prime factorization, apart from the order of the prime factors."
+  },
+  {
+    "question": "What is the prime factorization of 84?",
+    "options": [
+      "2 × 2 × 3 × 7",
+      "2 × 3 × 14",
+      "4 × 21",
+      "2 × 2 × 21"
+    ],
+    "correct": 0,
+    "explanation": "84 = 2 × 2 × 3 × 7 = 2² × 3 × 7."
+  },
+  {
+    "question": "Which of the following numbers has the prime factorization 2³ × 3²?",
+    "options": [
+      "48",
+      "72",
+      "54",
+      "96"
+    ],
+    "correct": 1,
+    "explanation": "2³ × 3² = 8 × 9 = 72."
+  },
+  {
+    "question": "Which statement is TRUE about the Fundamental Theorem of Arithmetic?",
+    "options": [
+      "Every natural number has more than one prime factorization.",
+      "Every composite number has a unique prime factorization.",
+      "Prime numbers can always be factorized into smaller primes.",
+      "Only even numbers have prime factorizations."
+    ],
+    "correct": 1,
+    "explanation": "Every composite number can be expressed uniquely as a product of primes, ignoring the order of the factors."
+  },
+  {
+    "question": "A number has the prime factorization 2² × 5³. What is the number?",
+    "options": [
+      "250",
+      "500",
+      "1000",
+      "125"
+    ],
+    "correct": 1,
+    "explanation": "2² × 5³ = 4 × 125 = 500."
+  },
+  {
+    "question": "Why is √2 considered an irrational number?",
+    "options": [
+      "It cannot be written as a ratio of two integers.",
+      "It is a whole number.",
+      "It is a terminating decimal.",
+      "It is equal to 1.5."
+    ],
+    "correct": 0,
+    "explanation": "√2 cannot be expressed as p/q where p and q are integers with q ≠ 0, making it irrational."
+  },
+  {
+    "question": "In the proof of the irrationality of √2, assuming √2 = p/q where p and q are coprime leads to:",
+    "options": [
+      "Both p and q being even",
+      "Both p and q being odd",
+      "p being prime only",
+      "q being prime only"
+    ],
+    "correct": 0,
+    "explanation": "The proof shows both p and q must be even, contradicting the assumption that they are coprime."
+  },
+  {
+    "question": "Which of the following numbers is irrational?",
+    "options": [
+      "√3",
+      "9/4",
+      "0.625",
+      "7"
+    ],
+    "correct": 0,
+    "explanation": "√3 cannot be expressed as a ratio of two integers, so it is irrational."
+  },
+  {
+    "question": "Which statement is correct regarding √5?",
+    "options": [
+      "√5 is rational because 5 is a prime number.",
+      "√5 is irrational because 5 is not a perfect square.",
+      "√5 = 2.5 exactly.",
+      "√5 is an integer."
+    ],
+    "correct": 1,
+    "explanation": "Since 5 is not a perfect square, √5 is irrational."
+  },
+  {
+    "question": "If √3 = p/q is assumed in lowest terms during a proof, the contradiction arises because:",
+    "options": [
+      "Both p and q become divisible by 3.",
+      "Both p and q become divisible by 2.",
+      "q becomes zero.",
+      "p becomes negative."
+    ],
+    "correct": 0,
+    "explanation": "The proof shows both p and q are divisible by 3, contradicting that they are coprime."
+  },
+  {
+    "question": "Which of the following numbers is irrational?",
+    "options": [
+      "3 + 2√5",
+      "3 + 2",
+      "6/5",
+      "0.75"
+    ],
+    "correct": 0,
+    "explanation": "Since √5 is irrational, multiplying it by 2 and adding 3 still results in an irrational number."
+  },
+  {
+    "question": "Which expression represents the prime factorization of 360?",
+    "options": [
+      "2³ × 3² × 5",
+      "2² × 3² × 5",
+      "2³ × 3 × 5²",
+      "2⁴ × 3 × 5"
+    ],
+    "correct": 0,
+    "explanation": "360 = 2³ × 3² × 5."
+  },
+  {
+    "question": "The Fundamental Theorem of Arithmetic is mainly used to:",
+    "options": [
+      "Find unique prime factorization of natural numbers",
+      "Solve quadratic equations",
+      "Find square roots only",
+      "Convert fractions into decimals"
+    ],
+    "correct": 0,
+    "explanation": "The theorem guarantees the unique prime factorization of every composite number."
+  },
+  {
+    "question": "Which of the following is NOT a perfect square?",
+    "options": [
+      "49",
+      "81",
+      "125",
+      "144"
+    ],
     "correct": 2,
-    "explanation": "3/4 is a rational number as it can be expressed as a ratio of two integers."
+    "explanation": "125 = 5³, so it is not a perfect square."
   },
   {
-    "question": "What is the decimal representation of 1/3?",
-    "options": ["0.333...", "0.3", "0.3333", "0.33333..."],
+    "question": "If √5 were rational, which assumption would be made at the beginning of its proof by contradiction?",
+    "options": [
+      "√5 = p/q, where p and q are coprime integers",
+      "√5 = 5/2",
+      "√5 is an integer",
+      "√5 = p × q"
+    ],
     "correct": 0,
-    "explanation": "1/3 = 0.333... (a non-terminating, repeating decimal)."
-  },
-  {
-    "question": "Which of the following is an irrational number?",
-    "options": ["0.1010010001...", "√4", "7/8", "0.25"],
-    "correct": 0,
-    "explanation": "This is a non-terminating, non-repeating decimal and hence irrational."
-  },
-  {
-    "question": "What is the value of √49?",
-    "options": ["6", "7", "8", "9"],
-    "correct": 1,
-    "explanation": "√49 = 7 since 7² = 49."
-  },
-  {
-    "question": "Which of the following is a terminating decimal?",
-    "options": ["1/3", "1/2", "1/7", "1/9"],
-    "correct": 1,
-    "explanation": "1/2 = 0.5, which terminates."
-  },
-  {
-    "question": "What is the decimal expansion of 7/8?",
-    "options": ["0.875", "0.87", "0.888...", "0.8"],
-    "correct": 0,
-    "explanation": "7 divided by 8 equals 0.875."
-  },
-  {
-    "question": "Which of the following is a perfect square?",
-    "options": ["50", "64", "72", "90"],
-    "correct": 1,
-    "explanation": "64 = 8², hence it's a perfect square."
-  },
-  {
-    "question": "What is the approximate value of √2?",
-    "options": ["1.414", "1.5", "1.3", "1.6"],
-    "correct": 0,
-    "explanation": "√2 ≈ 1.414."
-  },
-  {
-    "question": "Which of the following is a non-terminating, repeating decimal?",
-    "options": ["0.333...", "0.25", "0.1010010001...", "0.5"],
-    "correct": 0,
-    "explanation": "0.333... has a repeating 3, so it's repeating but non-terminating."
-  },
-  {
-    "question": "What is the cube root of 27?",
-    "options": ["2", "3", "4", "5"],
-    "correct": 1,
-    "explanation": "³√27 = 3 because 3³ = 27."
-  },
-  {
-    "question": "Which of these is a rational number?",
-    "options": ["√3", "π", "5/6", "e"],
-    "correct": 2,
-    "explanation": "5/6 is a ratio of integers, so it's rational."
-  },
-  {
-    "question": "What is the decimal representation of 1/8?",
-    "options": ["0.125", "0.12", "0.1", "0.15"],
-    "correct": 0,
-    "explanation": "1 ÷ 8 = 0.125, a terminating decimal."
-  },
-  {
-    "question": "Which of the following is a surd?",
-    "options": ["√4", "√5", "2", "3"],
-    "correct": 1,
-    "explanation": "√5 is irrational and not a perfect square — it's a surd."
-  },
-  {
-    "question": "What is the value of √81?",
-    "options": ["8", "9", "10", "11"],
-    "correct": 1,
-    "explanation": "√81 = 9 since 9² = 81."
-  },
-  {
-    "question": "Which of the following is a non-terminating, non-repeating decimal?",
-    "options": ["π", "0.5", "0.333...", "1/4"],
-    "correct": 0,
-    "explanation": "π is a non-terminating, non-repeating decimal, hence irrational."
+    "explanation": "The proof begins by assuming √5 = p/q in lowest terms and then derives a contradiction."
   }
 ]
-
