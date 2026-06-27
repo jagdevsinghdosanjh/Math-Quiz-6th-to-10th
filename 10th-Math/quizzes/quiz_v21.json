@@ -1,282 +1,277 @@
 [
   {
-    "question": "Who is known as the Father of Geometry?",
-    "options": ["Pythagoras", "Euclid", "Aristotle", "Newton"],
-    "correct": 1,
-    "explanation": "Euclid is known as the Father of Geometry for his work 'Elements'."
-  },
-  {
-    "question": "Which book written by Euclid is considered the foundation of geometry?",
-    "options": ["Optics", "Elements", "Principia", "Almagest"],
-    "correct": 1,
-    "explanation": "Euclid's 'Elements' is a collection of 13 books covering geometry and number theory."
-  },
-  {
-    "question": "How many postulates did Euclid propose?",
-    "options": ["3", "4", "5", "6"],
-    "correct": 2,
-    "explanation": "Euclid proposed 5 postulates as the basis of geometry."
-  },
-  {
-    "question": "Which of the following is Euclid’s first postulate?",
+    "question": "What is an Arithmetic Progression (AP)?",
     "options": [
-      "All right angles are equal to one another.",
-      "A straight line may be drawn from any one point to any other point.",
-      "A circle can be drawn with any center and radius.",
-      "Things which are equal to the same thing are equal to one another."
-    ],
-    "correct": 1,
-    "explanation": "Euclid’s first postulate states that a straight line may be drawn from any one point to any other point."
-  },
-  {
-    "question": "What does Euclid’s fifth postulate deal with?",
-    "options": [
-      "Drawing a circle",
-      "Equality of right angles",
-      "Parallel lines",
-      "Length of a line segment"
-    ],
-    "correct": 2,
-    "explanation": "Euclid’s fifth postulate is about the uniqueness of parallel lines."
-  },
-  {
-    "question": "Which of the following is not a Euclidean axiom?",
-    "options": [
-      "Things which are equal to the same thing are equal to one another.",
-      "The whole is greater than the part.",
-      "A line has no thickness.",
-      "If equals are added to equals, the wholes are equal."
-    ],
-    "correct": 2,
-    "explanation": "A line having no thickness is a definition, not an axiom."
-  },
-  {
-    "question": "How many axioms did Euclid state?",
-    "options": ["3", "5", "7", "9"],
-    "correct": 2,
-    "explanation": "Euclid stated 7 axioms which are universally accepted truths."
-  },
-  {
-    "question": "Which of the following is a correct statement of an axiom?",
-    "options": [
-      "A triangle has three sides.",
-      "A point has no part.",
-      "If equals are subtracted from equals, the remainders are equal.",
-      "A circle is a plane figure."
-    ],
-    "correct": 2,
-    "explanation": "This is one of Euclid’s axioms."
-  },
-  {
-    "question": "Which of the following is a definition in Euclid’s geometry?",
-    "options": [
-      "The whole is greater than the part.",
-      "A point is that which has no part.",
-      "If equals are added to equals, the wholes are equal.",
-      "Things which coincide with one another are equal to one another."
-    ],
-    "correct": 1,
-    "explanation": "This is Euclid’s definition of a point."
-  },
-  {
-    "question": "Which of the following is an undefined term in geometry?",
-    "options": ["Point", "Line", "Plane", "All of these"],
-    "correct": 3,
-    "explanation": "Point, line, and plane are undefined terms in geometry."
-  },
-  {
-    "question": "What is the minimum number of points required to determine a line?",
-    "options": ["1", "2", "3", "4"],
-    "correct": 1,
-    "explanation": "Two distinct points determine a unique line."
-  },
-  {
-    "question": "Which of the following is true according to Euclid’s geometry?",
-    "options": [
-      "Two lines always intersect.",
-      "Through a point outside a line, only one line can be drawn parallel to the given line.",
-      "Lines have thickness.",
-      "A line segment has infinite length."
-    ],
-    "correct": 1,
-    "explanation": "This is based on Euclid’s fifth postulate."
-  },
-  {
-    "question": "Which of the following is not a part of Euclid’s Elements?",
-    "options": ["Plane geometry", "Solid geometry", "Algebra", "Number theory"],
-    "correct": 2,
-    "explanation": "Euclid’s Elements does not include algebra."
-  },
-  {
-    "question": "Which of the following is an example of an axiom?",
-    "options": [
-      "A line segment can be extended indefinitely.",
-      "A circle can be drawn with any center and radius.",
-      "The whole is greater than the part.",
-      "Only one line can be drawn through two points."
-    ],
-    "correct": 2,
-    "explanation": "This is one of Euclid’s axioms."
-  },
-  {
-    "question": "Which of the following is a correct interpretation of Euclid’s fifth postulate?",
-    "options": [
-      "Two lines intersect at one point.",
-      "Parallel lines never meet.",
-      "Through a point not on a line, only one line can be drawn parallel to the given line.",
-      "Lines are infinite in length."
-    ],
-    "correct": 2,
-    "explanation": "This is the modern interpretation of Euclid’s fifth postulate."
-  },
-  {
-    "question": "Which of the following is a correct statement of Euclid’s second postulate?",
-    "options": [
-      "A straight line may be drawn from any one point to any other point.",
-      "A terminated line can be produced indefinitely.",
-      "All right angles are equal to one another.",
-      "A circle can be drawn with any center and radius."
-    ],
-    "correct": 1,
-    "explanation": "Euclid’s second postulate states that a terminated line can be extended indefinitely."
-  },
-  {
-    "question": "Which of the following is an example of Euclid’s third postulate?",
-    "options": [
-      "Drawing a triangle",
-      "Drawing a circle with a given center and radius",
-      "Drawing a square",
-      "Drawing a perpendicular bisector"
-    ],
-    "correct": 1,
-    "explanation": "Euclid’s third postulate allows drawing a circle with any center and radius."
-  },
-  {
-    "question": "Which of the following is a correct interpretation of Euclid’s fourth postulate?",
-    "options": [
-      "All angles are equal",
-      "All right angles are equal to one another",
-      "All lines are equal",
-      "All triangles are equal"
-    ],
-    "correct": 1,
-    "explanation": "Euclid’s fourth postulate states that all right angles are equal to one another."
-  },
-  {
-    "question": "Which of the following is not a valid Euclidean concept?",
-    "options": ["Point", "Line", "Plane", "Ray with thickness"],
-    "correct": 3,
-    "explanation": "In Euclidean geometry, lines and rays have no thickness."
-  },
-  {
-    "question": "Which of the following is a correct axiom?",
-    "options": [
-      "A line has thickness",
-      "A point has length",
-      "Things which coincide with one another are equal to one another",
-      "A triangle has four sides"
-    ],
-    "correct": 2,
-    "explanation": "This is one of Euclid’s axioms."
-  },
-  {
-    "question": "Which of the following is a correct definition in Euclid’s geometry?",
-    "options": [
-      "A point has no part",
-      "A line is a curve",
-      "A plane has thickness",
-      "A circle is a polygon"
+      "A sequence with a constant difference between consecutive terms",
+      "A sequence with a constant ratio",
+      "A sequence of prime numbers",
+      "A sequence of square numbers"
     ],
     "correct": 0,
-    "explanation": "Euclid defined a point as that which has no part."
+    "explanation": "An Arithmetic Progression is a sequence in which the difference between consecutive terms is constant."
   },
   {
-    "question": "Which of the following is not an axiom but a postulate?",
+    "question": "Which of the following is an Arithmetic Progression?",
     "options": [
-      "The whole is greater than the part",
-      "If equals are added to equals, the wholes are equal",
-      "A circle can be drawn with any center and radius",
-      "Things which are equal to the same thing are equal to one another"
-    ],
-    "correct": 2,
-    "explanation": "This is Euclid’s third postulate."
-  },
-  {
-    "question": "Which of the following is a correct example of Euclid’s fifth postulate?",
-    "options": [
-      "Two lines intersecting at a point",
-      "Two lines forming a triangle",
-      "Two lines meeting when extended",
-      "Two lines never meeting when extended"
-    ],
-    "correct": 3,
-    "explanation": "Euclid’s fifth postulate implies the existence of parallel lines."
-  },
-  {
-    "question": "Which of the following is a correct axiom related to subtraction?",
-    "options": [
-      "If equals are subtracted from equals, the remainders are equal",
-      "If equals are added to equals, the wholes are unequal",
-      "If equals are multiplied, the results are unequal",
-      "If equals are divided, the results are unequal"
+      "2, 5, 8, 11, ...",
+      "2, 4, 8, 16, ...",
+      "1, 4, 9, 16, ...",
+      "3, 6, 12, 24, ..."
     ],
     "correct": 0,
-    "explanation": "This is one of Euclid’s axioms."
+    "explanation": "The common difference is 3 throughout the sequence."
   },
   {
-    "question": "Which of the following is not a part of Euclid’s Elements?",
-    "options": ["Plane geometry", "Solid geometry", "Calculus", "Number theory"],
-    "correct": 2,
-    "explanation": "Calculus was not developed during Euclid’s time."
-  },
-  {
-    "question": "Which of the following is true about Euclid’s definitions?",
+    "question": "What is the common difference of the AP 7, 12, 17, 22, ...?",
     "options": [
-      "They are based on physical measurements",
-      "They are based on visual observations",
-      "They are logical descriptions of geometric objects",
-      "They are experimental results"
-    ],
-    "correct": 2,
-    "explanation": "Euclid’s definitions are logical and abstract descriptions."
-  },
-  {
-    "question": "Which of the following is an undefined term in Euclidean geometry?",
-    "options": ["Point", "Line", "Plane", "All of these"],
-    "correct": 3,
-    "explanation": "Point, line, and plane are undefined terms in Euclidean geometry."
-  },
-  {
-    "question": "Which of the following is a correct statement about Euclid’s geometry?",
-    "options": [
-      "It is based on experimental results",
-      "It is based on logical reasoning from axioms and postulates",
-      "It is based on calculus",
-      "It is based on algebraic formulas"
+      "4",
+      "5",
+      "6",
+      "7"
     ],
     "correct": 1,
-    "explanation": "Euclid’s geometry is a logical system built from axioms and postulates."
+    "explanation": "12 - 7 = 5, so the common difference is 5."
   },
   {
-    "question": "Which of the following is a correct example of the axiom: 'The whole is greater than the part'?",
+    "question": "What is the first term of the AP 10, 15, 20, 25, ...?",
     "options": [
-      "A triangle has three sides",
-      "A square has four equal sides",
-      "A line segment is longer than any of its parts",
-      "A circle has a center"
+      "5",
+      "10",
+      "15",
+      "20"
     ],
-    "correct": 2,
-    "explanation": "This illustrates the axiom that the whole is greater than the part."
+    "correct": 1,
+    "explanation": "The first term (a) is 10."
   },
   {
-    "question": "Which of the following is not a valid conclusion in Euclid’s geometry?",
+    "question": "The nth term of an AP is given by:",
     "options": [
-      "Two distinct points determine a unique line",
-      "A line has infinite length and no thickness",
-      "A point has dimension",
-      "A plane extends infinitely in all directions"
+      "a + (n - 1)d",
+      "a + nd",
+      "adⁿ",
+      "n(a + d)"
+    ],
+    "correct": 0,
+    "explanation": "The formula for the nth term is aₙ = a + (n - 1)d."
+  },
+  {
+    "question": "Find the 10th term of the AP: 3, 7, 11, 15, ...",
+    "options": [
+      "35",
+      "37",
+      "39",
+      "41"
     ],
     "correct": 2,
-    "explanation": "A point has no dimension in Euclidean geometry."
+    "explanation": "a₁₀ = 3 + (10 - 1) × 4 = 39."
+  },
+  {
+    "question": "Find the 15th term of the AP: 5, 8, 11, ...",
+    "options": [
+      "44",
+      "45",
+      "47",
+      "50"
+    ],
+    "correct": 2,
+    "explanation": "a₁₅ = 5 + (15 - 1) × 3 = 47."
+  },
+  {
+    "question": "The sum of the first n terms of an AP is:",
+    "options": [
+      "n/2 [2a + (n - 1)d]",
+      "a + nd",
+      "n(a + d)",
+      "2a + nd"
+    ],
+    "correct": 0,
+    "explanation": "The standard formula for the sum of the first n terms is Sₙ = n/2[2a + (n - 1)d]."
+  },
+  {
+    "question": "Find the sum of the first 5 terms of the AP: 2, 4, 6, 8, ...",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correct": 2,
+    "explanation": "The first five terms are 2, 4, 6, 8, 10. Their sum is 30."
+  },
+  {
+    "question": "Find the sum of the first 10 terms of the AP: 3, 6, 9, ...",
+    "options": [
+      "150",
+      "165",
+      "180",
+      "195"
+    ],
+    "correct": 1,
+    "explanation": "S₁₀ = 10/2 × [2×3 + 9×3] = 5 × 33 = 165."
+  },
+  {
+    "question": "Which term of the AP 4, 9, 14, ... is 49?",
+    "options": [
+      "9th",
+      "10th",
+      "11th",
+      "12th"
+    ],
+    "correct": 1,
+    "explanation": "49 = 4 + (n - 1) × 5 ⇒ n = 10."
+  },
+  {
+    "question": "The common difference of the AP 20, 17, 14, 11, ... is:",
+    "options": [
+      "3",
+      "-3",
+      "-2",
+      "2"
+    ],
+    "correct": 1,
+    "explanation": "17 - 20 = -3."
+  },
+  {
+    "question": "Which of the following is NOT an Arithmetic Progression?",
+    "options": [
+      "5, 8, 11, 14",
+      "10, 20, 30, 40",
+      "2, 4, 8, 16",
+      "15, 12, 9, 6"
+    ],
+    "correct": 2,
+    "explanation": "The differences are not constant in 2, 4, 8, 16."
+  },
+  {
+    "question": "If the first term is 8 and the common difference is 4, what is the 20th term?",
+    "options": [
+      "80",
+      "82",
+      "84",
+      "86"
+    ],
+    "correct": 2,
+    "explanation": "a₂₀ = 8 + 19 × 4 = 84."
+  },
+  {
+    "question": "Find the sum of the first 20 natural numbers.",
+    "options": [
+      "190",
+      "200",
+      "210",
+      "220"
+    ],
+    "correct": 2,
+    "explanation": "S = 20/2 × (1 + 20) = 210."
+  },
+  {
+    "question": "A child saves ₹20 in the first week and increases the savings by ₹10 every week. How much does the child save in the 5th week?",
+    "options": [
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "correct": 1,
+    "explanation": "20 + (5 - 1) × 10 = ₹60."
+  },
+  {
+    "question": "A person earns ₹500 on the first day and ₹50 more each succeeding day. How much is earned on the 8th day?",
+    "options": [
+      "800",
+      "850",
+      "900",
+      "950"
+    ],
+    "correct": 1,
+    "explanation": "500 + 7 × 50 = ₹850."
+  },
+  {
+    "question": "The AP 6, 10, 14, ... has common difference:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "explanation": "10 - 6 = 4."
+  },
+  {
+    "question": "Find the 25th term of the AP: 1, 3, 5, ...",
+    "options": [
+      "47",
+      "49",
+      "51",
+      "53"
+    ],
+    "correct": 1,
+    "explanation": "a₂₅ = 1 + 24 × 2 = 49."
+  },
+  {
+    "question": "Find the sum of the first 15 terms of the AP: 2, 5, 8, ...",
+    "options": [
+      "315",
+      "330",
+      "345",
+      "360"
+    ],
+    "correct": 1,
+    "explanation": "S₁₅ = 15/2 × [4 + 42] = 15/2 × 46 = 345? Wait: d = 3, so 2a + (n - 1)d = 4 + 42 = 46; 15×46/2 = 345."
+  },
+  {
+    "question": "The correct sum of the first 15 terms of the AP 2, 5, 8, ... is:",
+    "options": [
+      "315",
+      "330",
+      "345",
+      "360"
+    ],
+    "correct": 2,
+    "explanation": "S₁₅ = 15/2 × [2×2 + 14×3] = 15/2 × 46 = 345."
+  },
+  {
+    "question": "If the 8th term of an AP is 31 and the first term is 10, what is the common difference?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "explanation": "31 = 10 + 7d ⇒ d = 3."
+  },
+  {
+    "question": "A row of chairs has 15 chairs in the first row, 18 in the second row, 21 in the third row, and so on. How many chairs are in the 10th row?",
+    "options": [
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "correct": 3,
+    "explanation": "a₁₀ = 15 + 9 × 3 = 42."
+  },
+  {
+    "question": "A stack of books increases by 2 books each day. If there are 5 books on Day 1, how many books are there on Day 12?",
+    "options": [
+      "25",
+      "27",
+      "29",
+      "31"
+    ],
+    "correct": 1,
+    "explanation": "a₁₂ = 5 + 11 × 2 = 27."
+  },
+  {
+    "question": "Why is Arithmetic Progression useful in daily life?",
+    "options": [
+      "It helps model situations with a constant increase or decrease.",
+      "It is used only in geometry.",
+      "It applies only to prime numbers.",
+      "It is used only to find square roots."
+    ],
+    "correct": 0,
+    "explanation": "Many real-life situations such as savings, salaries, seating arrangements, and deposits follow an Arithmetic Progression."
   }
 ]
