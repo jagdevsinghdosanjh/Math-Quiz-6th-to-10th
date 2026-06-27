@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Two triangles are said to be similar if:",
+    "options": [
+      "Their corresponding angles are equal and corresponding sides are proportional",
+      "Their corresponding sides are equal",
+      "Their areas are equal",
+      "They have the same perimeter"
+    ],
+    "correct": 0,
+    "explanation": "Similar triangles have equal corresponding angles and proportional corresponding sides."
+  },
+  {
+    "question": "Which of the following is NOT necessarily true for similar triangles?",
+    "options": [
+      "Corresponding angles are equal",
+      "Corresponding sides are proportional",
+      "Their shapes are the same",
+      "Their corresponding sides are equal"
+    ],
+    "correct": 3,
+    "explanation": "Similar triangles have proportional, not necessarily equal, corresponding sides."
+  },
+  {
+    "question": "Which of the following is an example of similar triangles?",
+    "options": [
+      "Two equilateral triangles",
+      "An equilateral triangle and a right triangle",
+      "A right triangle and an obtuse triangle",
+      "A scalene triangle and an equilateral triangle"
+    ],
+    "correct": 0,
+    "explanation": "All equilateral triangles have angles of 60°, so they are similar."
+  },
+  {
+    "question": "According to the Basic Proportionality Theorem (BPT), if a line is drawn parallel to one side of a triangle, then it:",
+    "options": [
+      "Bisects the opposite angle",
+      "Divides the other two sides in the same ratio",
+      "Makes the triangle equilateral",
+      "Creates two congruent triangles"
+    ],
+    "correct": 1,
+    "explanation": "BPT states that a line parallel to one side divides the other two sides proportionally."
+  },
+  {
+    "question": "In ΔABC, if DE ∥ BC where D lies on AB and E lies on AC, then:",
+    "options": [
+      "AD/DB = AE/EC",
+      "AB = AC",
+      "AD = AE",
+      "DE = BC"
+    ],
+    "correct": 0,
+    "explanation": "This is the statement of the Basic Proportionality Theorem."
+  },
+  {
+    "question": "The converse of the Basic Proportionality Theorem states that if a line divides two sides of a triangle in the same ratio, then:",
+    "options": [
+      "The line is perpendicular to the third side",
+      "The line is parallel to the third side",
+      "The triangle is equilateral",
+      "The triangle is isosceles"
+    ],
+    "correct": 1,
+    "explanation": "If two sides are divided proportionally, the joining line is parallel to the third side."
+  },
+  {
+    "question": "If the corresponding angles of two triangles are equal, then the triangles are:",
+    "options": [
+      "Congruent",
+      "Similar",
+      "Right triangles",
+      "Equilateral"
+    ],
+    "correct": 1,
+    "explanation": "This is the AA (or AAA) similarity criterion."
+  },
+  {
+    "question": "If the corresponding sides of two triangles are proportional, then the triangles are:",
+    "options": [
+      "Congruent",
+      "Similar",
+      "Equal in area only",
+      "Isosceles"
+    ],
+    "correct": 1,
+    "explanation": "This is the SSS similarity criterion."
+  },
+  {
+    "question": "If one angle of two triangles is equal and the including sides are proportional, the triangles are similar by:",
+    "options": [
+      "AA criterion",
+      "SSS criterion",
+      "SAS criterion",
+      "RHS criterion"
+    ],
+    "correct": 2,
+    "explanation": "This is the SAS similarity criterion."
+  },
+  {
+    "question": "If two triangles are similar and the ratio of their corresponding sides is 3:5, then the ratio of their perimeters is:",
+    "options": [
+      "3:5",
+      "9:25",
+      "5:3",
+      "15:25"
+    ],
+    "correct": 0,
+    "explanation": "The ratio of perimeters of similar triangles equals the ratio of their corresponding sides."
+  },
+  {
+    "question": "Which criterion is sufficient to prove two triangles similar?",
+    "options": [
+      "AA",
+      "SSS",
+      "SAS",
+      "All of these"
+    ],
+    "correct": 3,
+    "explanation": "AA, SSS, and SAS are all valid similarity criteria."
+  },
+  {
+    "question": "Two triangles have angles (60°, 60°, 60°) and (60°, 60°, 60°). These triangles are:",
+    "options": [
+      "Always similar",
+      "Always congruent",
+      "Never similar",
+      "Right triangles"
+    ],
+    "correct": 0,
+    "explanation": "Equal corresponding angles imply the triangles are similar."
+  },
+  {
+    "question": "If ΔABC ~ ΔPQR, then AB/PQ is equal to:",
+    "options": [
+      "BC/QR",
+      "PR/AC",
+      "QR/PQ",
+      "AB/BC"
+    ],
+    "correct": 0,
+    "explanation": "Corresponding sides of similar triangles are proportional."
+  },
+  {
+    "question": "If AD/DB = AE/EC in ΔABC, then according to the converse of BPT:",
+    "options": [
+      "DE ⟂ BC",
+      "DE ∥ BC",
+      "AB = AC",
+      "ΔADE is congruent to ΔABC"
+    ],
+    "correct": 1,
+    "explanation": "Equal ratios imply that DE is parallel to BC."
+  },
+  {
+    "question": "Which of the following pairs of triangles are NOT similar?",
+    "options": [
+      "Triangles with angles (30°, 60°, 90°) and (30°, 60°, 90°)",
+      "Two equilateral triangles",
+      "Triangles with angles (45°, 45°, 90°) and (30°, 60°, 90°)",
+      "Triangles with proportional corresponding sides"
+    ],
+    "correct": 2,
+    "explanation": "The corresponding angles are different, so they are not similar."
+  },
+  {
+    "question": "If two triangles are similar and one triangle has sides 6 cm, 8 cm, 10 cm while the corresponding side in the second triangle is 15 cm, the scale factor is:",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "1.5"
+    ],
+    "correct": 1,
+    "explanation": "15 ÷ 6 = 2.5, so the scale factor is 2.5."
+  },
+  {
+    "question": "Similar triangles always have:",
+    "options": [
+      "Equal corresponding angles",
+      "Equal corresponding sides",
+      "Equal areas",
+      "Equal perimeters"
+    ],
+    "correct": 0,
+    "explanation": "The defining property of similar triangles is equality of corresponding angles."
+  },
+  {
+    "question": "Which theorem is mainly used when a line is drawn parallel to one side of a triangle?",
+    "options": [
+      "Pythagoras Theorem",
+      "Basic Proportionality Theorem",
+      "Midpoint Theorem",
+      "Angle Bisector Theorem"
+    ],
+    "correct": 1,
+    "explanation": "The Basic Proportionality Theorem applies to a line drawn parallel to one side of a triangle."
+  },
+  {
+    "question": "If ΔABC ~ ΔDEF and AB = 8 cm, DE = 12 cm, BC = 10 cm, then EF equals:",
+    "options": [
+      "12 cm",
+      "15 cm",
+      "16 cm",
+      "18 cm"
+    ],
+    "correct": 1,
+    "explanation": "AB/DE = BC/EF ⇒ 8/12 = 10/EF ⇒ EF = 15 cm."
+  },
+  {
+    "question": "How do similar triangles differ from congruent triangles?",
+    "options": [
+      "Similar triangles have the same shape but not necessarily the same size.",
+      "Similar triangles always have equal sides.",
+      "Congruent triangles only have equal angles.",
+      "There is no difference."
+    ],
+    "correct": 0,
+    "explanation": "Congruent triangles have the same shape and size, while similar triangles have the same shape but may differ in size."
+  }
+]
