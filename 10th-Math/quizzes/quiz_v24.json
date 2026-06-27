@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is a tangent to a circle?",
+    "options": [
+      "A line that intersects the circle at two points",
+      "A line that touches the circle at exactly one point",
+      "A line passing through the centre",
+      "A line inside the circle"
+    ],
+    "correct": 1,
+    "explanation": "A tangent is a line that touches a circle at exactly one point, called the point of contact."
+  },
+  {
+    "question": "The point where a tangent touches a circle is called:",
+    "options": [
+      "Centre",
+      "Radius",
+      "Point of contact",
+      "Diameter"
+    ],
+    "correct": 2,
+    "explanation": "The tangent touches the circle at a single point known as the point of contact."
+  },
+  {
+    "question": "The radius drawn to the point of contact of a tangent is always:",
+    "options": [
+      "Parallel to the tangent",
+      "Perpendicular to the tangent",
+      "Equal to the tangent",
+      "Twice the tangent"
+    ],
+    "correct": 1,
+    "explanation": "The tangent at any point of a circle is perpendicular to the radius through the point of contact."
+  },
+  {
+    "question": "The angle between a tangent and the radius at the point of contact is:",
+    "options": [
+      "45°",
+      "60°",
+      "90°",
+      "180°"
+    ],
+    "correct": 2,
+    "explanation": "A tangent is always perpendicular to the radius at the point of contact."
+  },
+  {
+    "question": "How many tangents can be drawn at a point on a circle?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Infinitely many"
+    ],
+    "correct": 0,
+    "explanation": "Only one tangent can be drawn at any point on a circle."
+  },
+  {
+    "question": "A line that cuts a circle at two distinct points is called:",
+    "options": [
+      "Radius",
+      "Chord",
+      "Secant",
+      "Diameter"
+    ],
+    "correct": 2,
+    "explanation": "A secant intersects a circle at two distinct points."
+  },
+  {
+    "question": "From an external point P, tangents PA and PB are drawn to a circle. Then:",
+    "options": [
+      "PA > PB",
+      "PA < PB",
+      "PA = PB",
+      "PA + PB = Radius"
+    ],
+    "correct": 2,
+    "explanation": "Tangents drawn from an external point to a circle are equal in length."
+  },
+  {
+    "question": "If PA = 8 cm, where PA and PB are tangents from an external point P, then PB is:",
+    "options": [
+      "4 cm",
+      "8 cm",
+      "12 cm",
+      "16 cm"
+    ],
+    "correct": 1,
+    "explanation": "Tangents from the same external point are equal, so PB = 8 cm."
+  },
+  {
+    "question": "The theorem 'Tangents drawn from an external point are equal' applies to:",
+    "options": [
+      "One tangent only",
+      "Two tangents from the same external point",
+      "Any two radii",
+      "Any two chords"
+    ],
+    "correct": 1,
+    "explanation": "The theorem applies only to two tangents drawn from the same external point."
+  },
+  {
+    "question": "Which segment joins the centre of the circle to the point of contact?",
+    "options": [
+      "Chord",
+      "Diameter",
+      "Radius",
+      "Secant"
+    ],
+    "correct": 2,
+    "explanation": "The radius joins the centre to any point on the circle, including the point of contact."
+  },
+  {
+    "question": "Which theorem proves that the tangent is perpendicular to the radius?",
+    "options": [
+      "Basic Proportionality Theorem",
+      "Pythagoras Theorem",
+      "Tangent-Radius Theorem",
+      "Midpoint Theorem"
+    ],
+    "correct": 2,
+    "explanation": "The Tangent-Radius Theorem states that the tangent at any point of a circle is perpendicular to the radius."
+  },
+  {
+    "question": "If OA is a radius and AT is a tangent at A, then ∠OAT equals:",
+    "options": [
+      "30°",
+      "45°",
+      "90°",
+      "180°"
+    ],
+    "correct": 2,
+    "explanation": "The radius is perpendicular to the tangent at the point of contact."
+  },
+  {
+    "question": "Which of the following statements is TRUE?",
+    "options": [
+      "A tangent passes through the centre of the circle.",
+      "A tangent intersects the circle at two points.",
+      "A tangent touches the circle at exactly one point.",
+      "Every chord is a tangent."
+    ],
+    "correct": 2,
+    "explanation": "A tangent touches the circle at exactly one point."
+  },
+  {
+    "question": "If OP = 13 cm and OA = 5 cm, where PA is a tangent from external point P and OA is the radius, then PA equals:",
+    "options": [
+      "10 cm",
+      "11 cm",
+      "12 cm",
+      "13 cm"
+    ],
+    "correct": 2,
+    "explanation": "Using Pythagoras: PA² = OP² − OA² = 13² − 5² = 169 − 25 = 144, so PA = 12 cm."
+  },
+  {
+    "question": "A tangent and a secant differ because:",
+    "options": [
+      "A tangent touches the circle once, while a secant cuts it at two points.",
+      "A tangent cuts the circle twice.",
+      "A secant never meets the circle.",
+      "They are always the same line."
+    ],
+    "correct": 0,
+    "explanation": "A tangent has one point of contact, whereas a secant intersects the circle at two points."
+  },
+  {
+    "question": "If two tangents are drawn from the same external point, the angle between them is bisected by the line joining the external point to the centre. This follows because:",
+    "options": [
+      "The tangents are parallel.",
+      "The two tangent lengths are equal.",
+      "The radii are unequal.",
+      "The circle has two centres."
+    ],
+    "correct": 1,
+    "explanation": "Equal tangent lengths help form congruent triangles, causing the line from the centre to bisect the angle."
+  },
+  {
+    "question": "Which of the following is always perpendicular to a tangent?",
+    "options": [
+      "Chord through the point of contact",
+      "Diameter not through the point of contact",
+      "Radius through the point of contact",
+      "Another tangent"
+    ],
+    "correct": 2,
+    "explanation": "The radius through the point of contact is always perpendicular to the tangent."
+  },
+  {
+    "question": "If PA and PB are tangents from point P, and PA = x + 4, PB = 12, then x equals:",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "explanation": "Since PA = PB, x + 4 = 12, giving x = 8."
+  },
+  {
+    "question": "A cyclist is standing at a point outside a circular park and walks along either of the two tangent paths to the park. The lengths of these paths are:",
+    "options": [
+      "Always unequal",
+      "Always equal",
+      "Equal only if the radius is 1",
+      "Cannot be determined"
+    ],
+    "correct": 1,
+    "explanation": "Tangents drawn from the same external point are always equal in length."
+  },
+  {
+    "question": "Which theorem is most useful in proving that two tangents from an external point are equal?",
+    "options": [
+      "Basic Proportionality Theorem",
+      "Pythagoras Theorem",
+      "Congruence of right triangles formed by radii and tangents",
+      "Midpoint Theorem"
+    ],
+    "correct": 2,
+    "explanation": "The proof uses congruent right triangles formed by the radii and tangents from the external point."
+  }
+]
