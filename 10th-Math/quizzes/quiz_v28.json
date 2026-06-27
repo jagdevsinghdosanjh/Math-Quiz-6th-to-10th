@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the formula for the area of a circle of radius r?",
+    "options": [
+      "2πr",
+      "πr²",
+      "πd",
+      "πr"
+    ],
+    "correct": 1,
+    "explanation": "The area of a circle is given by A = πr²."
+  },
+  {
+    "question": "What is the circumference of a circle of radius r?",
+    "options": [
+      "πr²",
+      "πr",
+      "2πr",
+      "4πr"
+    ],
+    "correct": 2,
+    "explanation": "The circumference (perimeter) of a circle is 2πr."
+  },
+  {
+    "question": "A sector of a circle is:",
+    "options": [
+      "The region enclosed by two radii and the corresponding arc",
+      "The region between a chord and its arc",
+      "Half of a circle",
+      "A quarter of a circle only"
+    ],
+    "correct": 0,
+    "explanation": "A sector is enclosed by two radii and the intercepted arc."
+  },
+  {
+    "question": "A segment of a circle is:",
+    "options": [
+      "The region between a chord and its corresponding arc",
+      "The region enclosed by two radii",
+      "A semicircle only",
+      "The entire circle"
+    ],
+    "correct": 0,
+    "explanation": "A segment is the region bounded by a chord and the corresponding arc."
+  },
+  {
+    "question": "The area of a sector with central angle θ is:",
+    "options": [
+      "(θ/360) × πr²",
+      "(θ/180) × πr²",
+      "2πr",
+      "πr²/2"
+    ],
+    "correct": 0,
+    "explanation": "Area of sector = (θ/360) × πr²."
+  },
+  {
+    "question": "The length of the arc of a sector with central angle θ is:",
+    "options": [
+      "(θ/360) × 2πr",
+      "(θ/180) × πr²",
+      "πr²",
+      "2πr²"
+    ],
+    "correct": 0,
+    "explanation": "Arc length = (θ/360) × 2πr."
+  },
+  {
+    "question": "The area of a 90° sector of a circle of radius 14 cm is:",
+    "options": [
+      "49π cm²",
+      "98π cm²",
+      "196π cm²",
+      "28π cm²"
+    ],
+    "correct": 0,
+    "explanation": "Area = (90/360) × π × 14² = 49π cm²."
+  },
+  {
+    "question": "The area of a semicircle of radius 10 cm is:",
+    "options": [
+      "50π cm²",
+      "100π cm²",
+      "200π cm²",
+      "25π cm²"
+    ],
+    "correct": 0,
+    "explanation": "Area = (1/2) × π × 10² = 50π cm²."
+  },
+  {
+    "question": "The circumference of a circle of radius 7 cm is:",
+    "options": [
+      "7π cm",
+      "14π cm",
+      "49π cm",
+      "28π cm"
+    ],
+    "correct": 1,
+    "explanation": "Circumference = 2π × 7 = 14π cm."
+  },
+  {
+    "question": "The area of a 60° sector of a circle of radius 6 cm is:",
+    "options": [
+      "6π cm²",
+      "12π cm²",
+      "18π cm²",
+      "36π cm²"
+    ],
+    "correct": 0,
+    "explanation": "Area = (60/360) × π × 6² = 6π cm²."
+  },
+  {
+    "question": "The perimeter of a sector is equal to:",
+    "options": [
+      "Arc length + 2r",
+      "Arc length only",
+      "2πr",
+      "πr²"
+    ],
+    "correct": 0,
+    "explanation": "Perimeter of a sector = Arc length + 2 × radius."
+  },
+  {
+    "question": "The area of the minor segment of a circle is obtained by:",
+    "options": [
+      "Area of sector − Area of triangle",
+      "Area of triangle − Area of sector",
+      "Area of circle − Area of sector",
+      "Area of circle + Area of triangle"
+    ],
+    "correct": 0,
+    "explanation": "Area of segment = Area of sector − Area of the corresponding triangle."
+  },
+  {
+    "question": "A circle has radius 14 cm. What is its area?",
+    "options": [
+      "196π cm²",
+      "98π cm²",
+      "28π cm²",
+      "392π cm²"
+    ],
+    "correct": 0,
+    "explanation": "Area = π × 14² = 196π cm²."
+  },
+  {
+    "question": "The arc length of a 180° sector of a circle of radius 7 cm is:",
+    "options": [
+      "7π cm",
+      "14π cm",
+      "21π cm",
+      "28π cm"
+    ],
+    "correct": 0,
+    "explanation": "Arc length = (180/360) × 2π × 7 = 7π cm."
+  },
+  {
+    "question": "The area of a quadrant of a circle of radius 8 cm is:",
+    "options": [
+      "16π cm²",
+      "32π cm²",
+      "64π cm²",
+      "128π cm²"
+    ],
+    "correct": 0,
+    "explanation": "Area = (1/4) × π × 8² = 16π cm²."
+  },
+  {
+    "question": "The perimeter of a semicircle of radius 7 cm is:",
+    "options": [
+      "7π cm",
+      "14 + 7π cm",
+      "14π cm",
+      "28 + 7π cm"
+    ],
+    "correct": 1,
+    "explanation": "Perimeter = Half circumference + Diameter = 7π + 14 cm."
+  },
+  {
+    "question": "The central angle of a sector whose area is one-third of the area of the circle is:",
+    "options": [
+      "60°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "correct": 2,
+    "explanation": "Since the sector is one-third of the circle, θ = (1/3) × 360° = 120°."
+  },
+  {
+    "question": "The area of a 120° sector of a circle of radius 9 cm is:",
+    "options": [
+      "27π cm²",
+      "36π cm²",
+      "54π cm²",
+      "81π cm²"
+    ],
+    "correct": 0,
+    "explanation": "Area = (120/360) × π × 9² = 27π cm²."
+  },
+  {
+    "question": "A circular garden has radius 21 m. The fencing required around it is:",
+    "options": [
+      "21π m",
+      "42π m",
+      "84π m",
+      "441π m"
+    ],
+    "correct": 1,
+    "explanation": "Fencing required = Circumference = 2π × 21 = 42π m."
+  },
+  {
+    "question": "Which of the following formulas is used to calculate the area of a segment of a circle?",
+    "options": [
+      "Area of sector − Area of corresponding triangle",
+      "Area of circle − Area of sector",
+      "πr² + Area of triangle",
+      "Circumference × Radius"
+    ],
+    "correct": 0,
+    "explanation": "The area of a segment is found by subtracting the area of the corresponding triangle from the area of the sector."
+  }
+]

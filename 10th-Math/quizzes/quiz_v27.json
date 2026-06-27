@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the angle of elevation?",
+    "options": [
+      "The angle measured below the horizontal",
+      "The angle between the horizontal and the line of sight when looking upward",
+      "The angle between two vertical lines",
+      "The angle inside a triangle only"
+    ],
+    "correct": 1,
+    "explanation": "The angle of elevation is formed when an observer looks upward from the horizontal."
+  },
+  {
+    "question": "What is the angle of depression?",
+    "options": [
+      "The angle between the horizontal and the line of sight when looking downward",
+      "The angle inside a circle",
+      "The angle between two vertical lines",
+      "The angle of a right triangle"
+    ],
+    "correct": 0,
+    "explanation": "The angle of depression is measured downward from the horizontal."
+  },
+  {
+    "question": "A man observes the top of a tower at an angle of elevation of 45°. If he is 20 m from the tower, the height of the tower is:",
+    "options": [
+      "10 m",
+      "20 m",
+      "20√3 m",
+      "40 m"
+    ],
+    "correct": 1,
+    "explanation": "tan 45° = height/20 = 1, so height = 20 m."
+  },
+  {
+    "question": "A ladder makes an angle of 60° with the ground. If the ladder is 10 m long, how high does it reach?",
+    "options": [
+      "5 m",
+      "5√3 m",
+      "10√3 m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explanation": "Height = 10 × sin 60° = 10 × (√3/2) = 5√3 m."
+  },
+  {
+    "question": "A tree casts a shadow 10√3 m long. If the angle of elevation of the Sun is 30°, the height of the tree is:",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explanation": "tan 30° = h/(10√3) = 1/√3, so h = 10 m."
+  },
+  {
+    "question": "The angle of elevation of the top of a building is 60°. If the observer is 15 m away, the height of the building is:",
+    "options": [
+      "15√3 m",
+      "15 m",
+      "30 m",
+      "10√3 m"
+    ],
+    "correct": 0,
+    "explanation": "Height = 15 × tan 60° = 15√3 m."
+  },
+  {
+    "question": "Which trigonometric ratio is generally used when the opposite side and adjacent side are involved?",
+    "options": [
+      "sin",
+      "cos",
+      "tan",
+      "sec"
+    ],
+    "correct": 2,
+    "explanation": "tan θ = Opposite/Adjacent."
+  },
+  {
+    "question": "If the angle of elevation is 30° and the distance from the observer to the foot of the building is 30 m, the building's height is:",
+    "options": [
+      "10√3 m",
+      "30√3 m",
+      "30 m",
+      "15√3 m"
+    ],
+    "correct": 0,
+    "explanation": "Height = 30 × tan 30° = 30 × (1/√3) = 10√3 m."
+  },
+  {
+    "question": "The angle formed when an observer on a hill looks down at a car is called:",
+    "options": [
+      "Angle of elevation",
+      "Angle of depression",
+      "Right angle",
+      "Acute angle"
+    ],
+    "correct": 1,
+    "explanation": "Looking downward from the horizontal forms the angle of depression."
+  },
+  {
+    "question": "A kite is flying vertically above a point on the ground. If its height is 20 m and the angle of elevation is 45°, the horizontal distance is:",
+    "options": [
+      "10 m",
+      "20 m",
+      "20√2 m",
+      "40 m"
+    ],
+    "correct": 1,
+    "explanation": "tan 45° = 20/d = 1, so d = 20 m."
+  },
+  {
+    "question": "A building is 24 m high. The angle of elevation from a point on the ground is 45°. The distance of the point from the building is:",
+    "options": [
+      "12 m",
+      "24 m",
+      "24√3 m",
+      "48 m"
+    ],
+    "correct": 1,
+    "explanation": "tan 45° = 24/d = 1, so d = 24 m."
+  },
+  {
+    "question": "The top of a pole is observed at an angle of elevation of 60°. If the observer is 8 m away, the height of the pole is:",
+    "options": [
+      "8√3 m",
+      "4√3 m",
+      "16√3 m",
+      "8 m"
+    ],
+    "correct": 0,
+    "explanation": "Height = 8 × tan 60° = 8√3 m."
+  },
+  {
+    "question": "Which angle is measured from the horizontal upward?",
+    "options": [
+      "Angle of depression",
+      "Angle of elevation",
+      "Obtuse angle",
+      "Reflex angle"
+    ],
+    "correct": 1,
+    "explanation": "An angle of elevation is measured upward from the horizontal."
+  },
+  {
+    "question": "A person standing 12 m from a tree observes its top at an angle of elevation of 45°. The tree's height is:",
+    "options": [
+      "6 m",
+      "12 m",
+      "12√3 m",
+      "24 m"
+    ],
+    "correct": 1,
+    "explanation": "tan 45° = h/12 = 1, so h = 12 m."
+  },
+  {
+    "question": "If the angle of elevation increases while the distance from the object remains the same, the object's height:",
+    "options": [
+      "Decreases",
+      "Remains the same",
+      "Increases",
+      "Becomes zero"
+    ],
+    "correct": 2,
+    "explanation": "For a fixed distance, a larger angle of elevation means a greater height."
+  },
+  {
+    "question": "The shadow of a building is 15 m long. If the angle of elevation of the Sun is 45°, the building's height is:",
+    "options": [
+      "7.5 m",
+      "15 m",
+      "15√3 m",
+      "30 m"
+    ],
+    "correct": 1,
+    "explanation": "Height = shadow × tan 45° = 15 × 1 = 15 m."
+  },
+  {
+    "question": "A flagpole is 10√3 m high. If the angle of elevation from a point on the ground is 60°, the horizontal distance is:",
+    "options": [
+      "5 m",
+      "10 m",
+      "15 m",
+      "20 m"
+    ],
+    "correct": 1,
+    "explanation": "Distance = height/tan 60° = 10√3/√3 = 10 m."
+  },
+  {
+    "question": "A balloon is vertically above a point on the ground at a height of 50 m. If the angle of elevation is 45°, the horizontal distance is:",
+    "options": [
+      "25 m",
+      "50 m",
+      "50√2 m",
+      "100 m"
+    ],
+    "correct": 1,
+    "explanation": "tan 45° = 50/d = 1, so d = 50 m."
+  },
+  {
+    "question": "Which trigonometric ratio is most useful for finding height when the hypotenuse and angle are known?",
+    "options": [
+      "sin",
+      "cos",
+      "tan",
+      "cot"
+    ],
+    "correct": 0,
+    "explanation": "sin θ = Opposite/Hypotenuse, so it is used to find the height."
+  },
+  {
+    "question": "A person observes the top of a lighthouse at an angle of elevation of 30°. If the person is 30√3 m from its base, the lighthouse is:",
+    "options": [
+      "15 m high",
+      "30 m high",
+      "45 m high",
+      "60 m high"
+    ],
+    "correct": 1,
+    "explanation": "Height = 30√3 × tan 30° = 30√3 × (1/√3) = 30 m."
+  }
+]

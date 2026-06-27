@@ -1,0 +1,222 @@
+[
+  {
+    "question": "What is the volume of a cube of side 5 cm?",
+    "options": [
+      "25 cm³",
+      "75 cm³",
+      "100 cm³",
+      "125 cm³"
+    ],
+    "correct": 3,
+    "explanation": "Volume of a cube = side³ = 5³ = 125 cm³."
+  },
+  {
+    "question": "The total surface area of a cube of side a is:",
+    "options": [
+      "4a²",
+      "5a²",
+      "6a²",
+      "8a²"
+    ],
+    "correct": 2,
+    "explanation": "A cube has 6 square faces, so TSA = 6a²."
+  },
+  {
+    "question": "The volume of a cuboid of length l, breadth b and height h is:",
+    "options": [
+      "2(l + b + h)",
+      "l × b × h",
+      "2(lb + bh + hl)",
+      "lb + bh + hl"
+    ],
+    "correct": 1,
+    "explanation": "Volume of a cuboid = l × b × h."
+  },
+  {
+    "question": "The curved surface area of a cylinder of radius r and height h is:",
+    "options": [
+      "πr²",
+      "2πrh",
+      "2πr²",
+      "πrh"
+    ],
+    "correct": 1,
+    "explanation": "Curved Surface Area (CSA) of a cylinder = 2πrh."
+  },
+  {
+    "question": "The volume of a cylinder is:",
+    "options": [
+      "2πrh",
+      "πr²h",
+      "πrl",
+      "1/3πr²h"
+    ],
+    "correct": 1,
+    "explanation": "Volume of a cylinder = πr²h."
+  },
+  {
+    "question": "The volume of a cone is:",
+    "options": [
+      "πr²h",
+      "2πrh",
+      "1/3πr²h",
+      "4/3πr³"
+    ],
+    "correct": 2,
+    "explanation": "Volume of a cone = (1/3)πr²h."
+  },
+  {
+    "question": "The volume of a sphere of radius r is:",
+    "options": [
+      "πr²",
+      "2πr³",
+      "4πr²",
+      "4/3πr³"
+    ],
+    "correct": 3,
+    "explanation": "Volume of a sphere = (4/3)πr³."
+  },
+  {
+    "question": "The curved surface area of a hemisphere of radius r is:",
+    "options": [
+      "2πr²",
+      "3πr²",
+      "4πr²",
+      "πr²"
+    ],
+    "correct": 0,
+    "explanation": "CSA of a hemisphere = 2πr²."
+  },
+  {
+    "question": "The total surface area of a hemisphere is:",
+    "options": [
+      "2πr²",
+      "3πr²",
+      "4πr²",
+      "πr²"
+    ],
+    "correct": 1,
+    "explanation": "TSA of a hemisphere = Curved Surface Area + Base Area = 2πr² + πr² = 3πr²."
+  },
+  {
+    "question": "The volume of a hemisphere of radius r is:",
+    "options": [
+      "2/3πr³",
+      "4/3πr³",
+      "πr³",
+      "1/3πr³"
+    ],
+    "correct": 0,
+    "explanation": "Volume of a hemisphere = Half the volume of a sphere = (2/3)πr³."
+  },
+  {
+    "question": "A cube has side 4 cm. Its total surface area is:",
+    "options": [
+      "48 cm²",
+      "64 cm²",
+      "96 cm²",
+      "128 cm²"
+    ],
+    "correct": 2,
+    "explanation": "TSA = 6 × 4² = 6 × 16 = 96 cm²."
+  },
+  {
+    "question": "A cylinder has radius 7 cm and height 10 cm. Its volume is:",
+    "options": [
+      "70π cm³",
+      "490π cm³",
+      "980π cm³",
+      "154π cm³"
+    ],
+    "correct": 1,
+    "explanation": "Volume = π × 7² × 10 = 490π cm³."
+  },
+  {
+    "question": "A cone has radius 3 cm and height 12 cm. Its volume is:",
+    "options": [
+      "12π cm³",
+      "24π cm³",
+      "36π cm³",
+      "48π cm³"
+    ],
+    "correct": 2,
+    "explanation": "Volume = (1/3)π × 3² × 12 = 36π cm³."
+  },
+  {
+    "question": "A solid consists of a hemisphere mounted on a cylinder of the same radius. Which quantity is found by adding the individual volumes?",
+    "options": [
+      "Curved surface area",
+      "Total surface area",
+      "Volume",
+      "Circumference"
+    ],
+    "correct": 2,
+    "explanation": "The total volume of a combined solid is the sum of the volumes of its parts."
+  },
+  {
+    "question": "When calculating the total surface area of two solids joined together, the common surface is:",
+    "options": [
+      "Added twice",
+      "Added once",
+      "Not counted",
+      "Multiplied by 2"
+    ],
+    "correct": 2,
+    "explanation": "The common surface is hidden inside the solid and is not exposed."
+  },
+  {
+    "question": "A sphere has radius 6 cm. Its volume is:",
+    "options": [
+      "144π cm³",
+      "288π cm³",
+      "216π cm³",
+      "96π cm³"
+    ],
+    "correct": 1,
+    "explanation": "Volume = (4/3)π × 6³ = (4/3)π × 216 = 288π cm³."
+  },
+  {
+    "question": "A cuboid measures 8 cm × 5 cm × 4 cm. Its volume is:",
+    "options": [
+      "120 cm³",
+      "140 cm³",
+      "160 cm³",
+      "180 cm³"
+    ],
+    "correct": 2,
+    "explanation": "Volume = 8 × 5 × 4 = 160 cm³."
+  },
+  {
+    "question": "A toy consists of a cone placed on a hemisphere of the same radius. To find its total volume, we:",
+    "options": [
+      "Subtract the two volumes",
+      "Multiply the two volumes",
+      "Add the two volumes",
+      "Find only the cone's volume"
+    ],
+    "correct": 2,
+    "explanation": "The total volume of a composite solid is the sum of the volumes of its components."
+  },
+  {
+    "question": "A water tank is shaped like a cylinder. Which formula is used to determine the amount of water it can hold?",
+    "options": [
+      "2πrh",
+      "πr²h",
+      "2πr²",
+      "πrl"
+    ],
+    "correct": 1,
+    "explanation": "The capacity of the tank is its volume, given by πr²h."
+  },
+  {
+    "question": "A decorative object is made by joining a cube and a hemisphere. While finding its total surface area, the circular base of the hemisphere is:",
+    "options": [
+      "Added twice",
+      "Counted as exposed",
+      "Excluded because it is joined to the cube",
+      "Multiplied by π"
+    ],
+    "correct": 2,
+    "explanation": "The common circular base is hidden after joining the solids, so it is not included in the exposed surface area."
+  }
+]

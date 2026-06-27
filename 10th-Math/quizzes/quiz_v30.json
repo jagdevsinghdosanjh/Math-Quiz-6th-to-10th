@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which measure of central tendency is obtained by dividing the sum of all observations by the number of observations?",
+    "options": [
+      "Median",
+      "Mode",
+      "Mean",
+      "Range"
+    ],
+    "correct": 2,
+    "explanation": "The arithmetic mean is the sum of all observations divided by the total number of observations."
+  },
+  {
+    "question": "The median of a grouped frequency distribution is:",
+    "options": [
+      "The most frequent value",
+      "The middle value of the distribution",
+      "The average of the highest and lowest values",
+      "The largest class frequency"
+    ],
+    "correct": 1,
+    "explanation": "The median divides the data into two equal halves."
+  },
+  {
+    "question": "The mode of a grouped frequency distribution is:",
+    "options": [
+      "The average value",
+      "The middle observation",
+      "The value occurring most frequently",
+      "The smallest observation"
+    ],
+    "correct": 2,
+    "explanation": "Mode is the value or class corresponding to the highest frequency."
+  },
+  {
+    "question": "The class interval having the highest frequency is called the:",
+    "options": [
+      "Median class",
+      "Modal class",
+      "Mean class",
+      "Upper class"
+    ],
+    "correct": 1,
+    "explanation": "The class with the highest frequency is known as the modal class."
+  },
+  {
+    "question": "Which method of finding the mean is most convenient when class marks are large?",
+    "options": [
+      "Direct method",
+      "Assumed mean method",
+      "Step-deviation method",
+      "Any of these"
+    ],
+    "correct": 2,
+    "explanation": "The step-deviation method simplifies calculations when class marks are large and equally spaced."
+  },
+  {
+    "question": "The direct method for finding the mean of grouped data uses:",
+    "options": [
+      "Σfx/Σf",
+      "Σf/Σfx",
+      "Σx/Σf",
+      "Σf²/Σx"
+    ],
+    "correct": 0,
+    "explanation": "Mean = Σfx ÷ Σf in the direct method."
+  },
+  {
+    "question": "In the assumed mean method, the assumed mean is denoted by:",
+    "options": [
+      "h",
+      "A",
+      "f",
+      "l"
+    ],
+    "correct": 1,
+    "explanation": "The assumed mean is generally represented by A."
+  },
+  {
+    "question": "The class mark of the class interval 20–30 is:",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "10"
+    ],
+    "correct": 1,
+    "explanation": "Class mark = (20 + 30)/2 = 25."
+  },
+  {
+    "question": "The class mark of the interval 40–50 is:",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "55"
+    ],
+    "correct": 1,
+    "explanation": "Class mark = (40 + 50)/2 = 45."
+  },
+  {
+    "question": "Which of the following is NOT a measure of central tendency?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "correct": 3,
+    "explanation": "Range is a measure of dispersion, not central tendency."
+  },
+  {
+    "question": "The cumulative frequency just greater than N/2 helps identify the:",
+    "options": [
+      "Modal class",
+      "Median class",
+      "Mean class",
+      "Highest class"
+    ],
+    "correct": 1,
+    "explanation": "The median class is the class whose cumulative frequency first exceeds N/2."
+  },
+  {
+    "question": "If all observations in a data set are equal, then the mean, median and mode are:",
+    "options": [
+      "All different",
+      "Mean only is different",
+      "All equal",
+      "Cannot be determined"
+    ],
+    "correct": 2,
+    "explanation": "When every observation is the same, all three measures have the same value."
+  },
+  {
+    "question": "Which method reduces the size of calculations by dividing deviations by the class width?",
+    "options": [
+      "Direct method",
+      "Step-deviation method",
+      "Graphical method",
+      "Trial method"
+    ],
+    "correct": 1,
+    "explanation": "The step-deviation method simplifies calculations by using u = d/h."
+  },
+  {
+    "question": "In a grouped frequency distribution, the total frequency is represented by:",
+    "options": [
+      "Σx",
+      "Σf",
+      "Σfx",
+      "Σd"
+    ],
+    "correct": 1,
+    "explanation": "Σf represents the total frequency."
+  },
+  {
+    "question": "The mean of the observations 10, 20, 30, 40 and 50 is:",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correct": 1,
+    "explanation": "Mean = (10 + 20 + 30 + 40 + 50)/5 = 30."
+  },
+  {
+    "question": "The median of the observations 5, 8, 10, 12, 15 is:",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct": 1,
+    "explanation": "The middle observation is 10."
+  },
+  {
+    "question": "The mode of the data 2, 3, 3, 4, 5, 3, 6 is:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "explanation": "The value 3 occurs most frequently."
+  },
+  {
+    "question": "A teacher wants to know the average marks of students in a class. Which measure is most appropriate?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Range"
+    ],
+    "correct": 0,
+    "explanation": "The arithmetic mean is commonly used to find the average marks."
+  },
+  {
+    "question": "Which measure of central tendency is least affected by extremely high or low values?",
+    "options": [
+      "Mean",
+      "Median",
+      "Mode",
+      "Class mark"
+    ],
+    "correct": 1,
+    "explanation": "The median is less affected by extreme observations than the mean."
+  },
+  {
+    "question": "The class interval with the greatest frequency in a grouped distribution is called the:",
+    "options": [
+      "Median class",
+      "Modal class",
+      "Lower class",
+      "Upper class"
+    ],
+    "correct": 1,
+    "explanation": "The modal class is the class interval having the highest frequency."
+  }
+]
