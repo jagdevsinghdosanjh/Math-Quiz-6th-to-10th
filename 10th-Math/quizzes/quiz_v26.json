@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Which of the following is the fundamental trigonometric identity?",
+    "options": [
+      "sin²A + cos²A = 1",
+      "tan²A + cot²A = 1",
+      "sinA + cosA = 1",
+      "sec²A + cosec²A = 1"
+    ],
+    "correct": 0,
+    "explanation": "The identity sin²A + cos²A = 1 is the fundamental trigonometric identity."
+  },
+  {
+    "question": "If sin A = 3/5, then cos²A is:",
+    "options": [
+      "9/25",
+      "16/25",
+      "7/25",
+      "1/25"
+    ],
+    "correct": 1,
+    "explanation": "cos²A = 1 − sin²A = 1 − 9/25 = 16/25."
+  },
+  {
+    "question": "If cos A = 4/5, then sin²A equals:",
+    "options": [
+      "9/25",
+      "16/25",
+      "1/5",
+      "4/25"
+    ],
+    "correct": 0,
+    "explanation": "sin²A = 1 − cos²A = 1 − 16/25 = 9/25."
+  },
+  {
+    "question": "The identity 1 + tan²A = ____ is:",
+    "options": [
+      "sec²A",
+      "cosec²A",
+      "cot²A",
+      "sin²A"
+    ],
+    "correct": 0,
+    "explanation": "The identity is 1 + tan²A = sec²A."
+  },
+  {
+    "question": "The identity 1 + cot²A = ____ is:",
+    "options": [
+      "sec²A",
+      "sin²A",
+      "cosec²A",
+      "tan²A"
+    ],
+    "correct": 2,
+    "explanation": "The identity is 1 + cot²A = cosec²A."
+  },
+  {
+    "question": "Simplify: sin²A + cos²A.",
+    "options": [
+      "0",
+      "1",
+      "sinA",
+      "cosA"
+    ],
+    "correct": 1,
+    "explanation": "By the fundamental identity, sin²A + cos²A = 1."
+  },
+  {
+    "question": "Simplify: 1 − sin²A.",
+    "options": [
+      "cos²A",
+      "tan²A",
+      "sec²A",
+      "cot²A"
+    ],
+    "correct": 0,
+    "explanation": "Using sin²A + cos²A = 1, we get 1 − sin²A = cos²A."
+  },
+  {
+    "question": "Simplify: 1 − cos²A.",
+    "options": [
+      "sin²A",
+      "tan²A",
+      "sec²A",
+      "cosec²A"
+    ],
+    "correct": 0,
+    "explanation": "From the identity, 1 − cos²A = sin²A."
+  },
+  {
+    "question": "If tan A = 3/4, then sec²A is:",
+    "options": [
+      "9/16",
+      "16/9",
+      "25/16",
+      "25/9"
+    ],
+    "correct": 2,
+    "explanation": "Using 1 + tan²A = sec²A = 1 + 9/16 = 25/16."
+  },
+  {
+    "question": "If cot A = 2, then cosec²A equals:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 3,
+    "explanation": "cosec²A = 1 + cot²A = 1 + 4 = 5."
+  },
+  {
+    "question": "Simplify: (sin²A + cos²A) + tan²A.",
+    "options": [
+      "tan²A",
+      "sec²A",
+      "1",
+      "cot²A"
+    ],
+    "correct": 1,
+    "explanation": "Since sin²A + cos²A = 1, the expression becomes 1 + tan²A = sec²A."
+  },
+  {
+    "question": "Simplify: sec²A − tan²A.",
+    "options": [
+      "0",
+      "1",
+      "sin²A",
+      "cos²A"
+    ],
+    "correct": 1,
+    "explanation": "From 1 + tan²A = sec²A, we get sec²A − tan²A = 1."
+  },
+  {
+    "question": "Simplify: cosec²A − cot²A.",
+    "options": [
+      "0",
+      "1",
+      "sin²A",
+      "cos²A"
+    ],
+    "correct": 1,
+    "explanation": "Using 1 + cot²A = cosec²A, we obtain cosec²A − cot²A = 1."
+  },
+  {
+    "question": "If sin A = 5/13, then cos A (A is acute) is:",
+    "options": [
+      "12/13",
+      "5/12",
+      "13/12",
+      "8/13"
+    ],
+    "correct": 0,
+    "explanation": "cos²A = 1 − (25/169) = 144/169, so cos A = 12/13."
+  },
+  {
+    "question": "Which identity is obtained by dividing sin²A + cos²A = 1 by cos²A?",
+    "options": [
+      "1 + tan²A = sec²A",
+      "1 + cot²A = cosec²A",
+      "sin²A = 1 − cos²A",
+      "tanA = sinA/cosA"
+    ],
+    "correct": 0,
+    "explanation": "Dividing every term by cos²A gives 1 + tan²A = sec²A."
+  },
+  {
+    "question": "Which identity is obtained by dividing sin²A + cos²A = 1 by sin²A?",
+    "options": [
+      "1 + tan²A = sec²A",
+      "1 + cot²A = cosec²A",
+      "tan²A = sec²A",
+      "cot²A = cosec²A"
+    ],
+    "correct": 1,
+    "explanation": "Dividing every term by sin²A gives 1 + cot²A = cosec²A."
+  },
+  {
+    "question": "Simplify: (1 − cos²A)/sin²A.",
+    "options": [
+      "1",
+      "0",
+      "tan²A",
+      "sec²A"
+    ],
+    "correct": 0,
+    "explanation": "Since 1 − cos²A = sin²A, the expression becomes sin²A/sin²A = 1."
+  },
+  {
+    "question": "Simplify: (1 − sin²A)/cos²A.",
+    "options": [
+      "0",
+      "1",
+      "tan²A",
+      "cot²A"
+    ],
+    "correct": 1,
+    "explanation": "Since 1 − sin²A = cos²A, the expression simplifies to 1."
+  },
+  {
+    "question": "If sec A = 5/4, then tan²A is:",
+    "options": [
+      "9/16",
+      "16/9",
+      "25/16",
+      "1/16"
+    ],
+    "correct": 0,
+    "explanation": "tan²A = sec²A − 1 = 25/16 − 16/16 = 9/16."
+  },
+  {
+    "question": "Which of the following expressions is always equal to 1?",
+    "options": [
+      "sin²A + cos²A",
+      "tan²A + cot²A",
+      "sinA + cosA",
+      "secA − tanA"
+    ],
+    "correct": 0,
+    "explanation": "The identity sin²A + cos²A = 1 is true for every angle for which the ratios are defined."
+  }
+]
