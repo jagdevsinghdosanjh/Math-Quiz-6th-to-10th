@@ -42,6 +42,17 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+    const params = new URLSearchParams(window.location.search);
+    const studentName = params.get("name");
+
+    if (studentName) {
+        const nameInput = document.getElementById("studentName");
+        if (nameInput) {
+            nameInput.value = studentName;
+        }
+    }
+</script>
 </body>
 
 </html>
