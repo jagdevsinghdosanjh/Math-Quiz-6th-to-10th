@@ -1,0 +1,162 @@
+[
+  {
+    "question": "In the Cartesian plane, the point where the x-axis and y-axis intersect is called:",
+    "options": ["Origin", "Quadrant", "Midpoint", "Vertex"],
+    "correct": 0,
+    "explanation": "The x-axis and y-axis intersect at the origin (0, 0)."
+  },
+  {
+    "question": "The coordinates of the origin are:",
+    "options": ["(1, 1)", "(0, 1)", "(1, 0)", "(0, 0)"],
+    "correct": 3,
+    "explanation": "The origin is represented by the point (0, 0)."
+  },
+  {
+    "question": "The point (4, -3) lies in which quadrant?",
+    "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+    "correct": 3,
+    "explanation": "Positive x and negative y coordinates place the point in Quadrant IV."
+  },
+  {
+    "question": "The point (-5, 2) lies in:",
+    "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+    "correct": 1,
+    "explanation": "Negative x and positive y coordinates lie in Quadrant II."
+  },
+  {
+    "question": "The distance between the points (2, 3) and (2, 8) is:",
+    "options": ["5", "6", "7", "10"],
+    "correct": 0,
+    "explanation": "Since the x-coordinates are the same, the distance is |8 − 3| = 5."
+  },
+  {
+    "question": "The distance between (1, 2) and (4, 6) is:",
+    "options": ["4", "5", "6", "7"],
+    "correct": 1,
+    "explanation": "Distance = √[(4−1)² + (6−2)²] = √(9 + 16) = √25 = 5."
+  },
+  {
+    "question": "Which formula is used to find the distance between two points (x₁, y₁) and (x₂, y₂)?",
+    "options": [
+      "√[(x₂−x₁)² + (y₂−y₁)²]",
+      "(x₁+x₂)/2",
+      "(y₁+y₂)/2",
+      "x₁y₁ + x₂y₂"
+    ],
+    "correct": 0,
+    "explanation": "This is the standard distance formula in coordinate geometry."
+  },
+  {
+    "question": "The distance between (-2, 1) and (2, 1) is:",
+    "options": ["2", "3", "4", "5"],
+    "correct": 2,
+    "explanation": "The y-coordinates are equal, so the distance is |2 − (−2)| = 4."
+  },
+  {
+    "question": "Find the distance between (0, 0) and (6, 8).",
+    "options": ["8", "9", "10", "12"],
+    "correct": 2,
+    "explanation": "Distance = √(6² + 8²) = √100 = 10."
+  },
+  {
+    "question": "The midpoint of the line segment joining (2, 4) and (6, 8) is:",
+    "options": ["(3, 6)", "(4, 5)", "(4, 6)", "(5, 7)"],
+    "correct": 2,
+    "explanation": "Midpoint = ((2+6)/2, (4+8)/2) = (4, 6)."
+  },
+  {
+    "question": "The point dividing the line joining A(2, 3) and B(8, 9) internally in the ratio 1:1 is:",
+    "options": ["(4, 5)", "(5, 6)", "(6, 7)", "(3, 4)"],
+    "correct": 1,
+    "explanation": "A ratio of 1:1 gives the midpoint, (5, 6)."
+  },
+  {
+    "question": "Using the section formula, the point dividing A(0, 0) and B(6, 0) in the ratio 1:2 is:",
+    "options": ["(2, 0)", "(3, 0)", "(4, 0)", "(5, 0)"],
+    "correct": 0,
+    "explanation": "Coordinates = ((1×6 + 2×0)/3, 0) = (2, 0)."
+  },
+  {
+    "question": "The coordinates of a point on the x-axis are always of the form:",
+    "options": ["(0, y)", "(x, 0)", "(x, x)", "(0, 0)"],
+    "correct": 1,
+    "explanation": "Every point on the x-axis has y-coordinate equal to 0."
+  },
+  {
+    "question": "The coordinates of a point on the y-axis are always of the form:",
+    "options": ["(x, 0)", "(0, y)", "(x, y)", "(1, y)"],
+    "correct": 1,
+    "explanation": "Every point on the y-axis has x-coordinate equal to 0."
+  },
+  {
+    "question": "Find the distance between (-3, -4) and (0, 0).",
+    "options": ["3", "4", "5", "6"],
+    "correct": 2,
+    "explanation": "Distance = √[(-3)² + (-4)²] = √25 = 5."
+  },
+  {
+    "question": "The point (0, -7) lies on:",
+    "options": ["x-axis", "y-axis", "Origin", "Quadrant IV"],
+    "correct": 1,
+    "explanation": "Since x = 0, the point lies on the y-axis."
+  },
+  {
+    "question": "Find the midpoint of (-2, 6) and (4, -2).",
+    "options": ["(1, 2)", "(2, 1)", "(0, 2)", "(1, 1)"],
+    "correct": 0,
+    "explanation": "Midpoint = ((-2+4)/2, (6-2)/2) = (1, 2)."
+  },
+  {
+    "question": "The distance between (5, 2) and (5, -4) is:",
+    "options": ["5", "6", "7", "8"],
+    "correct": 1,
+    "explanation": "Distance = |2 − (−4)| = 6."
+  },
+  {
+    "question": "A point divides the line joining (2, 2) and (8, 8) internally in the ratio 2:1. Its coordinates are:",
+    "options": ["(4, 4)", "(6, 6)", "(5, 5)", "(7, 7)"],
+    "correct": 1,
+    "explanation": "Using the section formula: ((2×8 + 1×2)/3, (2×8 + 1×2)/3) = (6, 6)."
+  },
+  {
+    "question": "Which quadrant contains the point (-4, -7)?",
+    "options": ["Quadrant I", "Quadrant II", "Quadrant III", "Quadrant IV"],
+    "correct": 2,
+    "explanation": "Both coordinates are negative, so the point lies in Quadrant III."
+  },
+  {
+    "question": "If the distance between A(1, 2) and B(x, 2) is 7 units, one possible value of x is:",
+    "options": ["6", "7", "8", "9"],
+    "correct": 2,
+    "explanation": "|x − 1| = 7, so x = 8 or x = -6. Among the options, 8 is correct."
+  },
+  {
+    "question": "A park is represented by points A(1, 1) and B(7, 1) on a map. What is the straight-line distance between them?",
+    "options": ["5 units", "6 units", "7 units", "8 units"],
+    "correct": 1,
+    "explanation": "Since both points have the same y-coordinate, the distance is |7 − 1| = 6 units."
+  },
+  {
+    "question": "A tree is planted exactly halfway between two poles at (2, 10) and (8, 4). Its coordinates are:",
+    "options": ["(4, 6)", "(5, 7)", "(5, 6)", "(6, 7)"],
+    "correct": 2,
+    "explanation": "The midpoint is ((2+8)/2, (10+4)/2) = (5, 7)."
+  },
+  {
+    "question": "Which formula is used to find the coordinates of a point dividing a line segment internally in the ratio m:n?",
+    "options": [
+      "((mx₂ + nx₁)/(m+n), (my₂ + ny₁)/(m+n))",
+      "((x₁+x₂)/2, (y₁+y₂)/2)",
+      "√[(x₂−x₁)²+(y₂−y₁)²]",
+      "(mx₁, ny₁)"
+    ],
+    "correct": 0,
+    "explanation": "This is the section formula for internal division."
+  },
+  {
+    "question": "The distance between the points (3, 4) and (-1, 1) is:",
+    "options": ["4", "5", "6", "7"],
+    "correct": 1,
+    "explanation": "Distance = √[(3+1)² + (4−1)²] = √(16+9) = √25 = 5."
+  }
+]
